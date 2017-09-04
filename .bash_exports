@@ -1,0 +1,58 @@
+#!/usr/bin/env bash
+
+#/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home
+export JAVA_HOME=`/usr/libexec/java_home -v1.8`
+
+export ANT_HOME=/usr/local/Cellar/ant/1.10.1/libexec
+export MVN_HOME=/usr/local/Cellar/maven/3.5.0/libexec
+
+export TOMCAT_HOME=/usr/local/Cellar/tomcat/8.5.20/libexec
+
+export HADOOP_HOME=/usr/local/Cellar/hadoop/2.8.1
+export HIVE_HOME=/usr/local/Cellar/hive/2.1.1/libexec
+
+export MYSQL_HOME=/usr/local/Cellar/mysql/5.7.19
+export MYSQL_DATA=/usr/local/var/mysql
+export MYSQL_CONFIG=/usr/local/etc
+
+export PG_HOME=/usr/local/Cellar/postgresql/9.6.5
+export PG_DATA=/usr/local/var/postgres
+export PG_CONFIG=/usr/local/var/postgres
+
+export MONGO_HOME=/usr/local/Cellar/mongodb/3.4.7
+export MONGO_DATA=/usr/local/var/mongodb
+export MONGO_LOGS=/usr/local/var/log/mongodb
+export MONGO_CONFIG=/usr/local/etc
+
+export NEO4J_HOME=/usr/local/Cellar/neo4j/3.2.2/libexec
+export NEO4J_DATA=$NEO4J_HOME/data
+export NEO4J_LOGS=$NEO4J_HOME/logs
+export NEO4J_CONFIG=$NEO4J_HOME/conf
+
+export SPARK_HOME=/usr/local/Cellar/apache-spark/2.2.0
+
+export ES_HOME=/usr/local/Cellar/elasticsearch/5.5.2/libexec/
+export ES_DATA=/usr/local/var/elasticsearch
+export ES_LOGS=/usr/local/var/log/elasticsearch/
+export ES_CONFIG=/usr/local/etc/elasticsearch/
+
+export KIBANA_HOME=/usr/local/Cellar/kibana/5.5.2
+export KIBANA_DATA=$KIBANA_HOME/data
+export KIBANA_CONFIG=/usr/local/etc/kibana/
+
+export CASSANDRA_HOME=/usr/local/Cellar/cassandra/3.10_1
+export CASSANDRA_DATA=/usr/local/var/lib/cassandra/data
+export CASSANDRA_LOGS=/usr/local/var/log/cassandra
+export CASSANDRA_CONFIG=/usr/local/etc/cassandra
+
+export ZOOKEEPER_HOME=/usr/local/Cellar/zookeeper/3.4.10/libexec
+
+export KAFKA_HOME=/usr/local/Cellar/kafka/0.11.0.0/libexec
+export KAFKA_DATA=/usr/local/var/lib/kafka-logs
+export KAFKA_CONFIG=$KAFKA_HOME/config
+export KAFKA_LOGS=$KAFKA_HOME/logs
+
+export SOLR_HOME=/usr/local/Cellar/solr/6.6.0/libexec
+
+export TERRAFORM_HOME=/usr/local/Cellar/terraform/0.10.3
+export ANSIBLE_HOME=/usr/local/Cellar/ansible/2.3.2.0_1/libexec
