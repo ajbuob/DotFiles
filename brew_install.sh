@@ -60,19 +60,20 @@ brew install terraform
 brew install ansible
 
 #Cask installs
-brew install postman
-brew install sourcetree
-brew install textmate
-brew install devcenter
-brew install google-chrome
-brew install the-unarchiver
+brew cask install java
+brew cask install postman
+brew cask install sourcetree
+brew cask install textmate
+brew cask install devcenter
+brew cask install google-chrome
+brew cask install the-unarchiver
 
-brew install intellij-idea
-brew install datagrip
+brew cask install intellij-idea
+brew cask install datagrip
 
-brew install docker-toolbox
-brew install virtualbox
-brew install kitematic
+brew cask install docker-toolbox
+brew cask install virtualbox
+brew cask install kitematic
 
 #Completion
 brew install bash-completion@2
