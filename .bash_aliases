@@ -25,17 +25,17 @@ alias brew-pull="cd $(brew --prefix)/Homebrew && git fetch && git reset --hard o
 alias brew-upgrade="brew upgrade;brew cleanup -s"
 alias brew-cache="rm -rvf $(brew --cache)"
 
-alias tomcat-start='$TOMCAT_HOME/bin/startup.sh'
-alias tomcat-stop='$TOMCAT_HOME/bin/shutdown.sh'
+alias tomcat-start='${TOMCAT_HOME}/bin/startup.sh'
+alias tomcat-stop='${TOMCAT_HOME}/bin/shutdown.sh'
 
-alias dfs-start="$HADOOP_HOME/sbin/start-dfs.sh"
-alias dfs-stop="$HADOOP_HOME/sbin/stop-dfs.sh"
+alias dfs-start="${HADOOP_HOME}/sbin/start-dfs.sh"
+alias dfs-stop="${HADOOP_HOME}/sbin/stop-dfs.sh"
 
-alias yarn-start="$HADOOP_HOME/sbin/start-yarn.sh"
-alias yarn-stop="$HADOOP_HOME/sbin/stop-yarn.sh"
+alias yarn-start="${HADOOP_HOME}/sbin/start-yarn.sh"
+alias yarn-stop="${HADOOP_HOME}/sbin/stop-yarn.sh"
 
-alias hadoop-start="$HADOOP_HOME/sbin/start-dfs.sh;$HADOOP_HOME/sbin/start-yarn.sh"
-alias hadoop-stop="$HADOOP_HOME/sbin/stop-yarn.sh;$HADOOP_HOME/sbin/stop-dfs.sh"
+alias hadoop-start="${HADOOP_HOME}/sbin/start-dfs.sh;${HADOOP_HOME}/sbin/start-yarn.sh"
+alias hadoop-stop="${HADOOP_HOME}/sbin/stop-yarn.sh;${HADOOP_HOME}/sbin/stop-dfs.sh"
 
 alias postgres-start="brew services start postgres"
 alias postgres-stop="brew services stop postgres"
