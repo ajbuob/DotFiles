@@ -23,7 +23,7 @@ alias reload="source ~/.bash_profile"
 alias brew-services="brew services list"
 alias brew-pull="cd $(brew --prefix)/Homebrew && git fetch && git reset --hard origin/master"
 alias brew-upgrade="brew upgrade;brew cleanup -s"
-alias brew-cache="rm -rf $(brew --cache)"
+alias brew-cache="rm -rvf $(brew --cache)"
 
 alias tomcat-start='$TOMCAT_HOME/bin/startup.sh'
 alias tomcat-stop='$TOMCAT_HOME/bin/shutdown.sh'
