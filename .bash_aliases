@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 
 alias idea='cd ~/IdeaProjects'
+alias idea-pref='cd ~/Library/Preferences/IntelliJIdea2017.2'
+alias idea-plugin='cd ~/Library/Application\ Support/IntelliJIdea2017.2'
 
 alias ls='ls -la'
 alias mkdir='mkdir -pv'
