@@ -12,7 +12,7 @@ brew install wget
 brew install lftp
 #brew install curl
 
-#brew install python
+brew install python
 brew install perl
 brew install vim
 
