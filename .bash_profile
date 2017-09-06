@@ -3,8 +3,8 @@
 #Source all the modules
 for file in ~/.bash_{exports,aliases,functions}; do
 	[ -r "${file}" ] && [ -f "${file}" ] && source "${file}";
-done;
-unset file;
+done
+unset file
 
 #Load main bash completion
 if [ -f /usr/local/share/bash-completion/bash_completion ]; then
@@ -12,10 +12,11 @@ if [ -f /usr/local/share/bash-completion/bash_completion ]; then
 fi
 
 #Load brew bash completion
-for f in $(brew --prefix)/etc/bash_completion.d/*
+for file in $(brew --prefix)/etc/bash_completion.d/*
 do
-   source "${f}";
+   [ -r "${file}" ] && [ -f "${file}" ] && source "${file}";
 done
+unset file
 
 #/usr/local/sbin added for homebrew installs
 export PATH=/usr/local/sbin:${PATH}
