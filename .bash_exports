@@ -21,7 +21,7 @@ export PG_HOME=${BREW_CELLAR_DIR}/postgresql/9.6.5
 export PG_DATA=/usr/local/var/postgres
 export PG_CONFIG=/usr/local/var/postgres
 
-export MONGO_HOME=${BREW_CELLAR_DIR}/mongodb/3.4.7
+export MONGO_HOME=${BREW_CELLAR_DIR}/mongodb/3.4.8
 export MONGO_DATA=/usr/local/var/mongodb
 export MONGO_LOGS=/usr/local/var/log/mongodb
 export MONGO_CONFIG=/usr/local/etc
@@ -33,12 +33,12 @@ export NEO4J_CONFIG=${NEO4J_HOME}/conf
 
 export SPARK_HOME=${BREW_CELLAR_DIR}/apache-spark/2.2.0
 
-export ES_HOME=${BREW_CELLAR_DIR}/elasticsearch/5.5.2/libexec/
+export ES_HOME=${BREW_CELLAR_DIR}/elasticsearch/5.6.0/libexec/
 export ES_DATA=/usr/local/var/elasticsearch
 export ES_LOGS=/usr/local/var/log/elasticsearch/
 export ES_CONFIG=/usr/local/etc/elasticsearch/
 
-export KIBANA_HOME=${BREW_CELLAR_DIR}/kibana/5.5.2
+export KIBANA_HOME=${BREW_CELLAR_DIR}/kibana/5.6.0
 export KIBANA_DATA=${KIBANA_HOME}/data
 export KIBANA_CONFIG=/usr/local/etc/kibana/
 
