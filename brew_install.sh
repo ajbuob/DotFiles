@@ -6,6 +6,7 @@ brew tap homebrew/services
 #brew install bash
 #echo /usr/local/bin/bash >> /etc/shells
 #chsh -s /usr/local/bin/bash
+#brew install bash-completion@2
 
 brew install dos2unix
 brew install wget
@@ -71,12 +72,14 @@ brew cask install the-unarchiver
 brew cask install intellij-idea
 brew cask install datagrip
 
-brew cask install docker-toolbox
 brew cask install virtualbox
 brew cask install kitematic
 
-#Completion
-brew install bash-completion@2
-brew install docker-completion
-brew install docker-compose-completion
-brew install docker-machine-completion
+#Docker and completion scripts
+brew install docker
+brew install docker-machine
+brew install docker-compose
+
+
+
+
