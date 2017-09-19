@@ -49,7 +49,7 @@ export CASSANDRA_CONFIG=/usr/local/etc/cassandra
 
 export ZOOKEEPER_HOME=${BREW_CELLAR_DIR}/zookeeper/3.4.10/libexec
 
-export KAFKA_HOME=${BREW_CELLAR_DIR}/kafka/0.11.0.0/libexec
+export KAFKA_HOME=${BREW_CELLAR_DIR}/kafka/0.11.0.1/libexec
 export KAFKA_DATA=/usr/local/var/lib/kafka-logs
 export KAFKA_CONFIG=${KAFKA_HOME}/config
 export KAFKA_LOGS=${KAFKA_HOME}/logs
