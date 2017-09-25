@@ -31,6 +31,7 @@ brew install subversion
 brew install awscli
 
 brew install ant
+brew install ivy
 brew install maven
 brew install maven-completion
 
