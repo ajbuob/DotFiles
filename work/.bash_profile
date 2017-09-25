@@ -20,6 +20,8 @@ unset file
 
 #Enusre the latest python2 from homebrew will be used
 #/usr/local/sbin added for homebrew installs
+
+export PATH=/usr/local/opt/tomcat@7/bin:${PATH}
 export PATH=/usr/local/opt/python/libexec/bin:/usr/local/sbin:${PATH}
 
 echo "PATH: ${PATH}"
