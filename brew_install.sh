@@ -11,9 +11,10 @@ brew tap homebrew/services
 brew install dos2unix
 brew install wget
 brew install lftp
-#brew install curl
+brew install curl
 
 brew install python
+brew install python3
 brew install perl
 brew install vim
 
