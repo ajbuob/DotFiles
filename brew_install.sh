@@ -47,7 +47,7 @@ brew install apache-spark
 brew install elasticsearch
 brew install kibana
 
-brew install mobgodb
+brew install mongodb
 brew install neo4j
 brew install cassandra
 brew install solr
