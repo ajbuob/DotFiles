@@ -6,6 +6,7 @@ export JAVA_HOME=`/usr/libexec/java_home -v1.8`
 export BREW_CELLAR_DIR=$(brew --cellar)
 
 export ANT_HOME=${BREW_CELLAR_DIR}/ant/1.10.1/libexec
+export IVY_HOME=${BREW_CELLAR_DIR}/ivy/2.4.0/libexec
 export MVN_HOME=${BREW_CELLAR_DIR}/maven/3.5.0/libexec
 
 export TOMCAT_HOME=${BREW_CELLAR_DIR}/tomcat/8.5.21/libexec
@@ -33,12 +34,12 @@ export NEO4J_CONFIG=${NEO4J_HOME}/conf
 
 export SPARK_HOME=${BREW_CELLAR_DIR}/apache-spark/2.2.0
 
-export ES_HOME=${BREW_CELLAR_DIR}/elasticsearch/5.6.1/libexec/
+export ES_HOME=${BREW_CELLAR_DIR}/elasticsearch/5.6.2/libexec/
 export ES_DATA=/usr/local/var/elasticsearch
 export ES_LOGS=/usr/local/var/log/elasticsearch/
 export ES_CONFIG=/usr/local/etc/elasticsearch/
 
-export KIBANA_HOME=${BREW_CELLAR_DIR}/kibana/5.6.1
+export KIBANA_HOME=${BREW_CELLAR_DIR}/kibana/5.6.2
 export KIBANA_DATA=${KIBANA_HOME}/data
 export KIBANA_CONFIG=/usr/local/etc/kibana/
 
