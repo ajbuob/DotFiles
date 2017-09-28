@@ -27,8 +27,8 @@ alias brew-pull="cd $(brew --prefix)/Homebrew && git fetch && git reset --hard o
 alias brew-upgrade="brew upgrade;brew cleanup -s"
 alias brew-cache="rm -rvf $(brew --cache)"
 
-alias tomcat-start='${TOMCAT_HOME}/bin/startup.sh'
-alias tomcat-stop='${TOMCAT_HOME}/bin/shutdown.sh'
+alias tomcat-start="brew services start tomcat"
+alias tomcat-stop="brew services stop tomcat"
 
 alias dfs-start="${HADOOP_HOME}/sbin/start-dfs.sh"
 alias dfs-stop="${HADOOP_HOME}/sbin/stop-dfs.sh"
