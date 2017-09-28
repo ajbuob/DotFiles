@@ -1,0 +1,64 @@
+#!/usr/bin/env bash
+
+#/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home
+export JAVA_HOME=`/usr/libexec/java_home -v1.8`
+
+export CATALINA_OPTS="-Dcom.britannica.configurator.configuratorPropFile=dev.properties -Djdbc.drivers=oracle.jdbc.driver.OracleDriver:org.apache.commons.dbcp.PoolingDriver -Dorg.xml.sax.driver=org.apache.xerces.parsers.SAXParser -Druntime=override"
+
+export BREW_CELLAR_DIR=$(brew --cellar)
+export HOMEBREW_EDITOR=vim
+
+export ANT_HOME=${BREW_CELLAR_DIR}/ant/1.10.1/libexec
+export IVY_HOME=${BREW_CELLAR_DIR}/ivy/2.4.0/libexec
+export MVN_HOME=${BREW_CELLAR_DIR}/maven/3.5.0/libexec
+
+export TOMCAT_HOME=${BREW_CELLAR_DIR}/tomcat@7/7.0.79/libexec
+
+export HADOOP_HOME=${BREW_CELLAR_DIR}/hadoop/2.8.1
+export HIVE_HOME=${BREW_CELLAR_DIR}/hive/2.1.1/libexec
+
+export MYSQL_HOME=${BREW_CELLAR_DIR}/mysql/5.7.19
+export MYSQL_DATA=/usr/local/var/mysql
+export MYSQL_CONFIG=/usr/local/etc
+
+export PG_HOME=${BREW_CELLAR_DIR}/postgresql/9.6.5
+export PG_DATA=/usr/local/var/postgres
+export PG_CONFIG=/usr/local/var/postgres
+
+export MONGO_HOME=${BREW_CELLAR_DIR}/mongodb/3.4.9
+export MONGO_DATA=/usr/local/var/mongodb
+export MONGO_LOGS=/usr/local/var/log/mongodb
+export MONGO_CONFIG=/usr/local/etc
+
+export NEO4J_HOME=${BREW_CELLAR_DIR}/neo4j/3.2.2/libexec
+export NEO4J_DATA=${NEO4J_HOME}/data
+export NEO4J_LOGS=${NEO4J_HOME}/logs
+export NEO4J_CONFIG=${NEO4J_HOME}/conf
+
+export SPARK_HOME=${BREW_CELLAR_DIR}/apache-spark/2.2.0
+
+export ES_HOME=${BREW_CELLAR_DIR}/elasticsearch/5.6.2/libexec/
+export ES_DATA=/usr/local/var/elasticsearch
+export ES_LOGS=/usr/local/var/log/elasticsearch/
+export ES_CONFIG=/usr/local/etc/elasticsearch/
+
+export KIBANA_HOME=${BREW_CELLAR_DIR}/kibana/5.6.2
+export KIBANA_DATA=${KIBANA_HOME}/data
+export KIBANA_CONFIG=/usr/local/etc/kibana/
+
+export CASSANDRA_HOME=${BREW_CELLAR_DIR}/cassandra/3.11.0
+export CASSANDRA_DATA=/usr/local/var/lib/cassandra/data
+export CASSANDRA_LOGS=/usr/local/var/log/cassandra
+export CASSANDRA_CONFIG=/usr/local/etc/cassandra
+
+export ZOOKEEPER_HOME=${BREW_CELLAR_DIR}/zookeeper/3.4.10/libexec
+
+export KAFKA_HOME=${BREW_CELLAR_DIR}/kafka/0.11.0.1/libexec
+export KAFKA_DATA=/usr/local/var/lib/kafka-logs
+export KAFKA_CONFIG=${KAFKA_HOME}/config
+export KAFKA_LOGS=${KAFKA_HOME}/logs
+
+export SOLR_HOME=${BREW_CELLAR_DIR}/solr/6.6.0/libexec
+
+export TERRAFORM_HOME=${BREW_CELLAR_DIR}/terraform/0.10.6
+export ANSIBLE_HOME=${BREW_CELLAR_DIR}/ansible/2.4.0.0/libexec
