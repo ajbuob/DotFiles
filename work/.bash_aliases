@@ -23,7 +23,7 @@ alias du='du -h'
 alias reload="source ~/.bash_profile"
 
 alias gcom="cd ~/work/gcom"
-alias gen="cd ~/work/gcom/generated"
+alias gen="cd ~/work/generated"
 
 alias brew-services="brew services list"
 alias brew-pull="cd $(brew --prefix)/Homebrew && git fetch && git reset --hard origin/master"
