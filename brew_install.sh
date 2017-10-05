@@ -18,6 +18,7 @@ brew install python3
 brew install perl
 brew install vim
 
+#######################
 #brew install coreutils
 #brew install findutils
 #brew install gnu-sed
@@ -25,6 +26,7 @@ brew install vim
 #brew install gawk
 #brew install gnu-which
 #brew install grep
+######################
 
 brew install git
 brew install subversion
