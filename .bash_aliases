@@ -5,7 +5,7 @@ alias idea-config='cd ~/Library/Preferences/IntelliJIdea2017.2'
 alias idea-plugins='cd ~/Library/Application\ Support/IntelliJIdea2017.2'
 
 alias ll='ls -la'
-alias mkdir='mkdir -pv'
+alias mdp='mkdir -pv'
 
 alias ff='find . -type f -name'
 alias fd='find . -type d -name'
