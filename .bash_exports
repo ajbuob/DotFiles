@@ -15,7 +15,7 @@ export TOMCAT_HOME=${BREW_CELLAR_DIR}/tomcat/8.5.24/libexec
 export HADOOP_HOME=${BREW_CELLAR_DIR}/hadoop/2.8.2
 export HIVE_HOME=${BREW_CELLAR_DIR}/hive/2.3.1/libexec
 
-export MYSQL_HOME=${BREW_CELLAR_DIR}/mysql/5.7.20_1
+export MYSQL_HOME=${BREW_CELLAR_DIR}/mysql/5.7.21
 export MYSQL_DATA=/usr/local/var/mysql
 export MYSQL_CONFIG=/usr/local/etc
 
