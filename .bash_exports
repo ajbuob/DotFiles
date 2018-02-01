@@ -58,5 +58,6 @@ export KAFKA_LOGS=${KAFKA_HOME}/logs
 
 export SOLR_HOME=${BREW_CELLAR_DIR}/solr/7.2.0/libexec
 
-export TERRAFORM_HOME=${BREW_CELLAR_DIR}/terraform/0.11.2
-export ANSIBLE_HOME=${BREW_CELLAR_DIR}/ansible/2.4.2.0_2/libexec
+export TERRAFORM_HOME=${BREW_CELLAR_DIR}/terraform/0.11.3
+
+export ANSIBLE_HOME=${BREW_CELLAR_DIR}/ansible/2.4.3.0/libexec
