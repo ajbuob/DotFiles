@@ -33,7 +33,7 @@ export NEO4J_DATA=${NEO4J_HOME}/data
 export NEO4J_LOGS=${NEO4J_HOME}/logs
 export NEO4J_CONFIG=${NEO4J_HOME}/conf
 
-export SPARK_HOME=${BREW_CELLAR_DIR}/apache-spark/2.2.1
+export SPARK_HOME=${BREW_CELLAR_DIR}/apache-spark/2.3.0
 
 export ES_HOME=${BREW_CELLAR_DIR}/elasticsearch/6.2.2/libexec/
 export ES_DATA=/usr/local/var/elasticsearch
@@ -60,4 +60,4 @@ export SOLR_HOME=${BREW_CELLAR_DIR}/solr/7.2.1/libexec
 
 export TERRAFORM_HOME=${BREW_CELLAR_DIR}/terraform/0.11.3
 
-export ANSIBLE_HOME=${BREW_CELLAR_DIR}/ansible/2.4.3.0/libexec
+export ANSIBLE_HOME=${BREW_CELLAR_DIR}/ansible/2.4.3.0_1/libexec
