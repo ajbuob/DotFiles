@@ -23,7 +23,7 @@ export PG_HOME=${BREW_CELLAR_DIR}/postgresql/10.3
 export PG_DATA=/usr/local/var/postgres
 export PG_CONFIG=/usr/local/var/postgres
 
-export MONGO_HOME=${BREW_CELLAR_DIR}/mongodb/3.6.3
+export MONGO_HOME=${BREW_CELLAR_DIR}/mongodb/3.6.4
 export MONGO_DATA=/usr/local/var/mongodb
 export MONGO_LOGS=/usr/local/var/log/mongodb
 export MONGO_CONFIG=/usr/local/etc
