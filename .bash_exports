@@ -60,4 +60,4 @@ export SOLR_HOME=${BREW_CELLAR_DIR}/solr/7.3.0/libexec
 
 export TERRAFORM_HOME=${BREW_CELLAR_DIR}/terraform/0.11.7
 
-export ANSIBLE_HOME=${BREW_CELLAR_DIR}/ansible/2.5.1/libexec
+export ANSIBLE_HOME=${BREW_CELLAR_DIR}/ansible/2.5.2/libexec
