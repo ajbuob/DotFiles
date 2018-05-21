@@ -4,6 +4,10 @@ alias idea='cd ~/IdeaProjects'
 alias idea-config='cd ~/Library/Preferences/IntelliJIdea2018.1'
 alias idea-plugins='cd ~/Library/Application\ Support/IntelliJIdea2018.1'
 
+alias tc='cd ${TOMCAT_HOME}'
+alias tcb='cd ${TOMCAT_HOME}/bin'
+alias tcl='cd ${TOMCAT_HOME}/logs'
+
 alias ll='ls -la'
 alias mdp='mkdir -pv'
 
