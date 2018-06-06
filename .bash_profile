@@ -24,7 +24,7 @@ export PATH=/usr/local/opt/python/libexec/bin:/usr/local/sbin:${PATH}
 
 echo "PATH: ${PATH}"
 
-#echo "rdr pass inet proto tcp from any to any port 80 -> 127.0.0.1 port 8080" | sudo pfctl -ef -
+#echo "rdr pass inet proto tcp from any to any port 80 -> 127.0.0.1 port 8181" | sudo pfctl -ef -
 
 # Start/Configure Docker
 DOCKER_RUNNING=$(docker-machine ls --format "{{.Name}}: {{.State}}" --filter name=default)
