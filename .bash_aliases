@@ -8,6 +8,8 @@ alias tc='cd ${TOMCAT_HOME}'
 alias tcb='cd ${TOMCAT_HOME}/bin'
 alias tcl='cd ${TOMCAT_HOME}/logs'
 
+alias pst='ps -ef|grep tomcat'
+
 alias ll='ls -la'
 alias mdp='mkdir -pv'
 
