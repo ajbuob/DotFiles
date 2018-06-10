@@ -33,7 +33,7 @@ export NEO4J_DATA=${NEO4J_HOME}/data
 export NEO4J_LOGS=${NEO4J_HOME}/logs
 export NEO4J_CONFIG=${NEO4J_HOME}/conf
 
-export SPARK_HOME=${BREW_CELLAR_DIR}/apache-spark/2.3.0
+export SPARK_HOME=${BREW_CELLAR_DIR}/apache-spark/2.3.1
 
 export ES_HOME=${BREW_CELLAR_DIR}/elasticsearch/6.2.4/libexec/
 export ES_DATA=/usr/local/var/elasticsearch
