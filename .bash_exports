@@ -6,7 +6,7 @@ export JAVA_HOME=`/usr/libexec/java_home -v1.8`
 export BREW_CELLAR_DIR=$(brew --cellar)
 export HOMEBREW_EDITOR=vim
 
-export ANT_HOME=${BREW_CELLAR_DIR}/ant/1.10.4/libexec
+export ANT_HOME=${BREW_CELLAR_DIR}/ant/1.10.5/libexec
 export IVY_HOME=${BREW_CELLAR_DIR}/ivy/2.4.0/libexec
 export MVN_HOME=${BREW_CELLAR_DIR}/maven/3.5.4/libexec
 
