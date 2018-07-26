@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 
 alias idea='cd ~/IdeaProjects'
-alias idea-config='cd ~/Library/Preferences/IntelliJIdea2018.1'
-alias idea-plugins='cd ~/Library/Application\ Support/IntelliJIdea2018.1'
+alias idea-config='cd ~/Library/Preferences/IntelliJIdea2018.2'
+alias idea-plugins='cd ~/Library/Application\ Support/IntelliJIdea2018.2'
 
 alias tc='cd ${TOMCAT_HOME}'
 alias tcb='cd ${TOMCAT_HOME}/bin'
