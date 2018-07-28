@@ -15,7 +15,7 @@ export TOMCAT_HOME=${BREW_CELLAR_DIR}/tomcat/9.0.10/libexec
 export HADOOP_HOME=${BREW_CELLAR_DIR}/hadoop/3.1.0
 export HIVE_HOME=${BREW_CELLAR_DIR}/hive/3.0.0/libexec
 
-export MYSQL_HOME=${BREW_CELLAR_DIR}/mysql/8.0.11
+export MYSQL_HOME=${BREW_CELLAR_DIR}/mysql/8.0.12
 export MYSQL_DATA=/usr/local/var/mysql
 export MYSQL_CONFIG=/usr/local/etc
 
@@ -60,4 +60,4 @@ export SOLR_HOME=${BREW_CELLAR_DIR}/solr/7.4.0/libexec
 
 export TERRAFORM_HOME=${BREW_CELLAR_DIR}/terraform/0.11.7
 
-export ANSIBLE_HOME=${BREW_CELLAR_DIR}/ansible/2.6.1/libexec
+export ANSIBLE_HOME=${BREW_CELLAR_DIR}/ansible/2.6.2/libexec
