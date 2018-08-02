@@ -44,7 +44,7 @@ export KIBANA_HOME=${BREW_CELLAR_DIR}/kibana/6.2.4
 export KIBANA_DATA=${KIBANA_HOME}/data
 export KIBANA_CONFIG=/usr/local/etc/kibana/
 
-export CASSANDRA_HOME=${BREW_CELLAR_DIR}/cassandra/3.11.2_1
+export CASSANDRA_HOME=${BREW_CELLAR_DIR}/cassandra/3.11.3
 export CASSANDRA_DATA=/usr/local/var/lib/cassandra/data
 export CASSANDRA_LOGS=/usr/local/var/log/cassandra
 export CASSANDRA_CONFIG=/usr/local/etc/cassandra
