@@ -19,7 +19,7 @@ export MYSQL_HOME=${BREW_CELLAR_DIR}/mysql/8.0.12
 export MYSQL_DATA=/usr/local/var/mysql
 export MYSQL_CONFIG=/usr/local/etc
 
-export PG_HOME=${BREW_CELLAR_DIR}/postgresql/10.4
+export PG_HOME=${BREW_CELLAR_DIR}/postgresql/10.5
 export PG_DATA=/usr/local/var/postgres
 export PG_CONFIG=/usr/local/var/postgres
 
