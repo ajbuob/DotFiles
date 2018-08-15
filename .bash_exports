@@ -12,7 +12,7 @@ export MVN_HOME=${BREW_CELLAR_DIR}/maven/3.5.4/libexec
 
 export TOMCAT_HOME=${BREW_CELLAR_DIR}/tomcat/9.0.10/libexec
 
-export HADOOP_HOME=${BREW_CELLAR_DIR}/hadoop/3.1.0_1
+export HADOOP_HOME=${BREW_CELLAR_DIR}/hadoop/3.1.1
 export HIVE_HOME=${BREW_CELLAR_DIR}/hive/3.1.0/libexec
 
 export MYSQL_HOME=${BREW_CELLAR_DIR}/mysql/8.0.12
@@ -51,7 +51,7 @@ export CASSANDRA_CONFIG=/usr/local/etc/cassandra
 
 export ZOOKEEPER_HOME=${BREW_CELLAR_DIR}/zookeeper/3.4.12/libexec
 
-export KAFKA_HOME=${BREW_CELLAR_DIR}/kafka/1.1.0/libexec
+export KAFKA_HOME=${BREW_CELLAR_DIR}/kafka/2.0.0/libexec
 export KAFKA_DATA=/usr/local/var/lib/kafka-logs
 export KAFKA_CONFIG=${KAFKA_HOME}/config
 export KAFKA_LOGS=${KAFKA_HOME}/logs
