@@ -40,7 +40,7 @@ export ES_DATA=/usr/local/var/elasticsearch
 export ES_LOGS=/usr/local/var/log/elasticsearch/
 export ES_CONFIG=/usr/local/etc/elasticsearch/
 
-export KIBANA_HOME=${BREW_CELLAR_DIR}/kibana/6.4.2
+export KIBANA_HOME=${BREW_CELLAR_DIR}/kibana/6.4.3
 export KIBANA_DATA=${KIBANA_HOME}/data
 export KIBANA_CONFIG=/usr/local/etc/kibana/
 
