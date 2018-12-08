@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+export AWS_PROFILE=terraform_user
+
 #/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home
 export JAVA_HOME=`/usr/libexec/java_home -v1.8`
 
