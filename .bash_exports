@@ -64,3 +64,4 @@ export TERRAFORM_HOME=${BREW_CELLAR_DIR}/terraform/0.11.11
 
 export ANSIBLE_HOME=${BREW_CELLAR_DIR}/ansible/2.7.6/libexec
 
+export ANACONDA_HOME=/usr/local/anaconda3
