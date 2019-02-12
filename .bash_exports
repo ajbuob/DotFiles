@@ -17,7 +17,7 @@ export TOMCAT_HOME=${BREW_CELLAR_DIR}/tomcat/9.0.16/libexec
 export HADOOP_HOME=${BREW_CELLAR_DIR}/hadoop/3.1.1
 export HIVE_HOME=${BREW_CELLAR_DIR}/hive/3.1.1/libexec
 
-export MYSQL_HOME=${BREW_CELLAR_DIR}/mysql/8.0.14
+export MYSQL_HOME=${BREW_CELLAR_DIR}/mysql/8.0.15
 export MYSQL_DATA=/usr/local/var/mysql
 export MYSQL_CONFIG=/usr/local/etc
 
@@ -42,7 +42,7 @@ export ES_DATA=/usr/local/var/elasticsearch
 export ES_LOGS=/usr/local/var/log/elasticsearch/
 export ES_CONFIG=/usr/local/etc/elasticsearch/
 
-export KIBANA_HOME=${BREW_CELLAR_DIR}/kibana/6.6.0
+export KIBANA_HOME=${BREW_CELLAR_DIR}/kibana/6.6.0_1
 export KIBANA_DATA=${KIBANA_HOME}/data
 export KIBANA_CONFIG=/usr/local/etc/kibana/
 
