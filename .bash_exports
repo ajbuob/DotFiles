@@ -21,7 +21,7 @@ export MYSQL_HOME=${BREW_CELLAR_DIR}/mysql/8.0.15
 export MYSQL_DATA=/usr/local/var/mysql
 export MYSQL_CONFIG=/usr/local/etc
 
-export PG_HOME=${BREW_CELLAR_DIR}/postgresql/11.1
+export PG_HOME=${BREW_CELLAR_DIR}/postgresql/11.2
 export PG_DATA=/usr/local/var/postgres
 export PG_CONFIG=/usr/local/var/postgres
 
@@ -46,7 +46,7 @@ export KIBANA_HOME=${BREW_CELLAR_DIR}/kibana/6.6.0_1
 export KIBANA_DATA=${KIBANA_HOME}/data
 export KIBANA_CONFIG=/usr/local/etc/kibana/
 
-export CASSANDRA_HOME=${BREW_CELLAR_DIR}/cassandra/3.11.3_1
+export CASSANDRA_HOME=${BREW_CELLAR_DIR}/cassandra/3.11.4
 export CASSANDRA_DATA=/usr/local/var/lib/cassandra/data
 export CASSANDRA_LOGS=/usr/local/var/log/cassandra
 export CASSANDRA_CONFIG=/usr/local/etc/cassandra
