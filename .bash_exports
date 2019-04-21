@@ -21,7 +21,7 @@ export MYSQL_HOME=${BREW_CELLAR_DIR}/mysql/8.0.15
 export MYSQL_DATA=/usr/local/var/mysql
 export MYSQL_CONFIG=/usr/local/etc
 
-export PG_HOME=${BREW_CELLAR_DIR}/postgresql/11.2
+export PG_HOME=${BREW_CELLAR_DIR}/postgresql/11.2_1
 export PG_DATA=/usr/local/var/postgres
 export PG_CONFIG=/usr/local/var/postgres
 
@@ -53,7 +53,7 @@ export CASSANDRA_CONFIG=/usr/local/etc/cassandra
 
 export ZOOKEEPER_HOME=${BREW_CELLAR_DIR}/zookeeper/3.4.13/libexec
 
-export KAFKA_HOME=${BREW_CELLAR_DIR}/kafka/2.1.1/libexec
+export KAFKA_HOME=${BREW_CELLAR_DIR}/kafka/2.2.0/libexec
 export KAFKA_DATA=/usr/local/var/lib/kafka-logs
 export KAFKA_CONFIG=${KAFKA_HOME}/config
 export KAFKA_LOGS=${KAFKA_HOME}/logs
