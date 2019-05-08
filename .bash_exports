@@ -17,7 +17,7 @@ export TOMCAT_HOME=${BREW_CELLAR_DIR}/tomcat/9.0.19/libexec
 export HADOOP_HOME=${BREW_CELLAR_DIR}/hadoop/3.1.2
 export HIVE_HOME=${BREW_CELLAR_DIR}/hive/3.1.1/libexec
 
-export MYSQL_HOME=${BREW_CELLAR_DIR}/mysql/8.0.15
+export MYSQL_HOME=${BREW_CELLAR_DIR}/mysql/8.0.16
 export MYSQL_DATA=/usr/local/var/mysql
 export MYSQL_CONFIG=/usr/local/etc
 
@@ -35,7 +35,7 @@ export NEO4J_DATA=${NEO4J_HOME}/data
 export NEO4J_LOGS=${NEO4J_HOME}/logs
 export NEO4J_CONFIG=${NEO4J_HOME}/conf
 
-export SPARK_HOME=${BREW_CELLAR_DIR}/apache-spark/2.4.2/libexec
+export SPARK_HOME=${BREW_CELLAR_DIR}/apache-spark/2.4.3/libexec
 
 export ES_HOME=${BREW_CELLAR_DIR}/elasticsearch/6.7.0/libexec
 export ES_DATA=/usr/local/var/elasticsearch
