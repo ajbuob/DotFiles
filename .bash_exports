@@ -21,7 +21,7 @@ export MYSQL_HOME=${BREW_CELLAR_DIR}/mysql/8.0.16
 export MYSQL_DATA=/usr/local/var/mysql
 export MYSQL_CONFIG=/usr/local/etc
 
-export PG_HOME=${BREW_CELLAR_DIR}/postgresql/11.2_1
+export PG_HOME=${BREW_CELLAR_DIR}/postgresql/11.3
 export PG_DATA=/usr/local/var/postgres
 export PG_CONFIG=/usr/local/var/postgres
 
@@ -37,12 +37,12 @@ export NEO4J_CONFIG=${NEO4J_HOME}/conf
 
 export SPARK_HOME=${BREW_CELLAR_DIR}/apache-spark/2.4.3/libexec
 
-export ES_HOME=${BREW_CELLAR_DIR}/elasticsearch/6.7.0/libexec
+export ES_HOME=${BREW_CELLAR_DIR}/elasticsearch/6.7.2/libexec
 export ES_DATA=/usr/local/var/elasticsearch
 export ES_LOGS=/usr/local/var/log/elasticsearch/
 export ES_CONFIG=/usr/local/etc/elasticsearch/
 
-export KIBANA_HOME=${BREW_CELLAR_DIR}/kibana/6.7.0
+export KIBANA_HOME=${BREW_CELLAR_DIR}/kibana/6.7.2
 export KIBANA_DATA=${KIBANA_HOME}/data
 export KIBANA_CONFIG=/usr/local/etc/kibana/
 
