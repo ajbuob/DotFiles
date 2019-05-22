@@ -30,7 +30,7 @@ export MONGO_DATA=/usr/local/var/mongodb
 export MONGO_LOGS=/usr/local/var/log/mongodb
 export MONGO_CONFIG=/usr/local/etc
 
-export NEO4J_HOME=${BREW_CELLAR_DIR}/neo4j/3.5.3/libexec
+export NEO4J_HOME=${BREW_CELLAR_DIR}/neo4j/3.5.5/libexec
 export NEO4J_DATA=${NEO4J_HOME}/data
 export NEO4J_LOGS=${NEO4J_HOME}/logs
 export NEO4J_CONFIG=${NEO4J_HOME}/conf
