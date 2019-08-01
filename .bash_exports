@@ -17,7 +17,7 @@ export TOMCAT_HOME=${BREW_CELLAR_DIR}/tomcat/9.0.22/libexec
 export HADOOP_HOME=${BREW_CELLAR_DIR}/hadoop/3.1.2
 export HIVE_HOME=${BREW_CELLAR_DIR}/hive/3.1.1/libexec
 
-export MYSQL_HOME=${BREW_CELLAR_DIR}/mysql/8.0.16
+export MYSQL_HOME=${BREW_CELLAR_DIR}/mysql/8.0.17
 export MYSQL_DATA=/usr/local/var/mysql
 export MYSQL_CONFIG=/usr/local/etc
 
@@ -58,7 +58,7 @@ export KAFKA_DATA=/usr/local/var/lib/kafka-logs
 export KAFKA_CONFIG=${KAFKA_HOME}/config
 export KAFKA_LOGS=${KAFKA_HOME}/logs
 
-export TERRAFORM_HOME=${BREW_CELLAR_DIR}/terraform/0.12.5
-export ANSIBLE_HOME=${BREW_CELLAR_DIR}/ansible/2.8.2/libexec
+export TERRAFORM_HOME=${BREW_CELLAR_DIR}/terraform/0.12.6
+export ANSIBLE_HOME=${BREW_CELLAR_DIR}/ansible/2.8.3/libexec
 
 export ANACONDA_HOME=/usr/local/anaconda3
