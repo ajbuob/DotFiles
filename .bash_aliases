@@ -1,5 +1,9 @@
 #!/usr/bin/env bash
 
+alias j8="export JAVA_HOME=${JAVA8_HOME}"
+alias j11="export JAVA_HOME=${JAVA11_HOME}"
+alias j12="export JAVA_HOME=${JAVA12_HOME}"
+
 alias idea='cd ~/IdeaProjects'
 alias idea-config='cd ~/Library/Preferences/IntelliJIdea2019.2'
 alias idea-plugins='cd ~/Library/Application\ Support/IntelliJIdea2019.2'

@@ -2,8 +2,16 @@
 
 export AWS_PROFILE=terraform
 
-#/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home
-export JAVA_HOME=`/usr/libexec/java_home -v1.8`
+#/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home
+export JAVA8_HOME=`/usr/libexec/java_home -v1.8`
+
+#/Library/Java/JavaVirtualMachines/jdk-11.0.4.jdk/Contents/Home
+export JAVA11_HOME=`/usr/libexec/java_home -v11`
+
+#/Library/Java/JavaVirtualMachines/jdk-12.0.2.jdk/Contents/Home
+export JAVA12_HOME=`/usr/libexec/java_home -v12`
+
+export JAVA_HOME=${JAVA11_HOME}
 
 export BREW_CELLAR_DIR=$(brew --cellar)
 export HOMEBREW_EDITOR=vim
@@ -21,7 +29,7 @@ export MYSQL_HOME=${BREW_CELLAR_DIR}/mysql/8.0.17
 export MYSQL_DATA=/usr/local/var/mysql
 export MYSQL_CONFIG=/usr/local/etc
 
-export PG_HOME=${BREW_CELLAR_DIR}/postgresql/11.4
+export PG_HOME=${BREW_CELLAR_DIR}/postgresql/11.5
 export PG_DATA=/usr/local/var/postgres
 export PG_CONFIG=/usr/local/var/postgres
 
