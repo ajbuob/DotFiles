@@ -23,7 +23,7 @@ export MVN_HOME=${BREW_CELLAR_DIR}/maven/3.6.1/libexec
 export TOMCAT_HOME=${BREW_CELLAR_DIR}/tomcat/9.0.24/libexec
 
 export HADOOP_HOME=${BREW_CELLAR_DIR}/hadoop/3.1.2
-export HIVE_HOME=${BREW_CELLAR_DIR}/hive/3.1.1/libexec
+export HIVE_HOME=${BREW_CELLAR_DIR}/hive/3.1.2/libexec
 
 export MYSQL_HOME=${BREW_CELLAR_DIR}/mysql/8.0.17
 export MYSQL_DATA=/usr/local/var/mysql
