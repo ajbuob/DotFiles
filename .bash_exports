@@ -16,6 +16,8 @@ export JAVA_HOME=${JAVA11_HOME}
 export BREW_CELLAR_DIR=$(brew --cellar)
 export HOMEBREW_EDITOR=vim
 
+export PYENV_ROOT=~/.pyenv
+
 export ANT_HOME=${BREW_CELLAR_DIR}/ant/1.10.6/libexec
 export IVY_HOME=${BREW_CELLAR_DIR}/ivy/2.4.0/libexec
 export MVN_HOME=${BREW_CELLAR_DIR}/maven/3.6.1/libexec
@@ -33,7 +35,7 @@ export PG_HOME=${BREW_CELLAR_DIR}/postgresql/11.5
 export PG_DATA=/usr/local/var/postgres
 export PG_CONFIG=/usr/local/var/postgres
 
-export MONGO_HOME=${BREW_CELLAR_DIR}/mongodb/4.0.3_1
+export MONGO_HOME=${BREW_CELLAR_DIR}/mongodb-community/4.2.0
 export MONGO_DATA=/usr/local/var/mongodb
 export MONGO_LOGS=/usr/local/var/log/mongodb
 export MONGO_CONFIG=/usr/local/etc
