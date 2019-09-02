@@ -18,11 +18,15 @@ do
 done
 unset file
 
-#Enusre the latest python2 from homebrew will be used
 #/usr/local/sbin added for homebrew installs
-export PATH=/usr/local/opt/python/libexec/bin:/usr/local/sbin:~/bin:${PATH}
+export PATH=/usr/local/sbin:~/bin:${PATH}
 export PATH=${ANACONDA_HOME}/bin:${PATH}
+export PATH=${PYENV_ROOT}/bin:$PATH
 
+# pyenv configuration
+if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi
+# pyenv-virtualenv configuration
+if which pyenv-virtualenv-init > /dev/null; then eval "$(pyenv virtualenv-init -)"; fi
 
 echo "PATH: ${PATH}"
 
