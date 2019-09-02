@@ -66,8 +66,8 @@ alias es-stop="brew services stop elasticsearch"
 alias kibana-start="brew services start kibana"
 alias kibana-stop="brew services stop kibana"
 
-alias mongodb-start="brew services start mongodb"
-alias mongodb-stop="brew services stop mongodb"
+alias mongodb-start="brew services start mongodb-community"
+alias mongodb-stop="brew services stop mongodb-community"
 
 alias neo4j-start="brew services start neo4j"
 alias neo4j-stop="brew services stop neo4j"
