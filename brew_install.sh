@@ -2,6 +2,7 @@
 
 brew tap caskroom/cask
 brew tap homebrew/services
+brew tap mongodb/brew
 
 #brew install bash
 #echo /usr/local/bin/bash >> /etc/shells
@@ -17,6 +18,12 @@ brew install python@2
 brew install python
 brew install perl
 brew install vim
+
+brew install pyenv
+brew install pyenv-virtualenv
+
+#ln -s $(brew --cellar python)/3.7.4 $HOME/.pyenv/versions/brew-python-3.7.4; 
+#ln -s $(brew --cellar python@2)/2.7.16 $HOME/.pyenv/versions/brew-python-2.7.16; 
 
 #######################
 #brew install coreutils
@@ -51,7 +58,7 @@ brew install apache-spark
 brew install elasticsearch
 brew install kibana
 
-brew install mongodb
+brew install mongodb-community
 brew install neo4j
 brew install cassandra
 brew install solr
