@@ -74,6 +74,8 @@ brew install kafka
 
 brew install jq
 
+brew install serverless
+
 brew install terraform
 brew install ansible
 
