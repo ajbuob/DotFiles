@@ -8,6 +8,10 @@ alias idea='cd ~/IdeaProjects'
 alias idea-config='cd ~/Library/Preferences/IntelliJIdea2019.2'
 alias idea-plugins='cd ~/Library/Application\ Support/IntelliJIdea2019.2'
 
+alias pycharm='cd ~/PycharmProjects'
+alias pycharm-config='cd ~/Library/Preferences/PyCharm2019.2'
+alias pycharm-plugins='cd ~/Library/Application\ Support/PyCharm2019.2'
+
 alias tc='cd ${TOMCAT_HOME}'
 alias tcb='cd ${TOMCAT_HOME}/bin'
 alias tcl='cd ${TOMCAT_HOME}/logs'

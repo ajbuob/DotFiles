@@ -82,6 +82,7 @@ brew cask install the-unarchiver
 
 brew cask install intellij-idea
 brew cask install datagrip
+brew cask install pycharm
 
 brew cask install virtualbox
 brew cask install kitematic
