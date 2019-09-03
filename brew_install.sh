@@ -14,8 +14,12 @@ brew install wget
 brew install lftp
 brew install curl
 
+brew install node
+
 brew install python@2
 brew install python
+brew install pyenv
+
 brew install perl
 brew install vim
 
@@ -58,6 +62,8 @@ brew install apache-spark
 brew install elasticsearch
 brew install kibana
 
+brew install r
+
 brew install mongodb-community
 brew install neo4j
 brew install cassandra
@@ -91,5 +97,7 @@ brew cask install kitematic
 brew install docker
 brew install docker-machine
 brew install docker-compose
+
+brew install kubernetes-cli	
 
 brew install youtube-dl
