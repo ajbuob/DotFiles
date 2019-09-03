@@ -23,7 +23,7 @@ brew install pyenv
 brew install pyenv-virtualenv
 
 #ln -s $(brew --cellar python)/3.7.4 $HOME/.pyenv/versions/brew-python-3.7.4; 
-#ln -s $(brew --cellar python@2)/2.7.16 $HOME/.pyenv/versions/brew-python-2.7.16; 
+#ln -s $(brew --cellar python@2)/2.7.16_1 $HOME/.pyenv/versions/brew-python-2.7.16; 
 
 #######################
 #brew install coreutils
