@@ -12,11 +12,14 @@ alias pycharm='cd ~/PycharmProjects'
 alias pycharm-config='cd ~/Library/Preferences/PyCharm2019.2'
 alias pycharm-plugins='cd ~/Library/Application\ Support/PyCharm2019.2'
 
+alias e80="echo 'rdr pass inet proto tcp from any to any port 80 -> 127.0.0.1 port 8181' | sudo pfctl -ef -"
+
 alias tc='cd ${TOMCAT_HOME}'
 alias tcb='cd ${TOMCAT_HOME}/bin'
 alias tcl='cd ${TOMCAT_HOME}/logs'
 
 alias pst='ps -ef|grep tomcat'
+alias tcc='cd ${TOMCAT_HOME}/logs;tail -f catalina.out'
 
 alias ll='ls -la'
 alias mdp='mkdir -pv'
