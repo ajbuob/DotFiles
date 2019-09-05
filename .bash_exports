@@ -20,7 +20,7 @@ export PYENV_ROOT=~/.pyenv
 
 export ANT_HOME=${BREW_CELLAR_DIR}/ant/1.10.6/libexec
 export IVY_HOME=${BREW_CELLAR_DIR}/ivy/2.4.0/libexec
-export MVN_HOME=${BREW_CELLAR_DIR}/maven/3.6.1/libexec
+export MVN_HOME=${BREW_CELLAR_DIR}/maven/3.6.2/libexec
 
 export TOMCAT_HOME=${BREW_CELLAR_DIR}/tomcat/9.0.24/libexec
 
@@ -68,7 +68,7 @@ export KAFKA_DATA=/usr/local/var/lib/kafka-logs
 export KAFKA_CONFIG=${KAFKA_HOME}/config
 export KAFKA_LOGS=${KAFKA_HOME}/logs
 
-export TERRAFORM_HOME=${BREW_CELLAR_DIR}/terraform/0.12.7
+export TERRAFORM_HOME=${BREW_CELLAR_DIR}/terraform/0.12.8
 export ANSIBLE_HOME=${BREW_CELLAR_DIR}/ansible/2.8.4_1/libexec
 
 export ANACONDA_HOME=/usr/local/anaconda3
