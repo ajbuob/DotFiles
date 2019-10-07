@@ -20,7 +20,7 @@ unset file
 
 #/usr/local/sbin added for homebrew installs
 export PATH=/usr/local/sbin:~/bin:${PATH}
-export PATH=${ANACONDA_HOME}/bin:${PATH}
+#export PATH=${ANACONDA_HOME}/bin:${PATH}
 export PATH=${PYENV_ROOT}/bin:$PATH
 
 # pyenv configuration
