@@ -27,7 +27,7 @@ export TOMCAT_HOME=${BREW_CELLAR_DIR}/tomcat/9.0.27/libexec
 export HADOOP_HOME=${BREW_CELLAR_DIR}/hadoop/3.2.1
 export HIVE_HOME=${BREW_CELLAR_DIR}/hive/3.1.2/libexec
 
-export MYSQL_HOME=${BREW_CELLAR_DIR}/mysql/8.0.17
+export MYSQL_HOME=${BREW_CELLAR_DIR}/mysql/8.0.18
 export MYSQL_DATA=/usr/local/var/mysql
 export MYSQL_CONFIG=/usr/local/etc
 
@@ -40,7 +40,7 @@ export MONGO_DATA=/usr/local/var/mongodb
 export MONGO_LOGS=/usr/local/var/log/mongodb
 export MONGO_CONFIG=/usr/local/etc
 
-export NEO4J_HOME=${BREW_CELLAR_DIR}/neo4j/3.5.9/libexec
+export NEO4J_HOME=${BREW_CELLAR_DIR}/neo4j/3.5.11/libexec
 export NEO4J_DATA=${NEO4J_HOME}/data
 export NEO4J_LOGS=${NEO4J_HOME}/logs
 export NEO4J_CONFIG=${NEO4J_HOME}/conf
