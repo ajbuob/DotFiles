@@ -68,7 +68,7 @@ export KAFKA_DATA=/usr/local/var/lib/kafka-logs
 export KAFKA_CONFIG=${KAFKA_HOME}/config
 export KAFKA_LOGS=${KAFKA_HOME}/logs
 
-export TERRAFORM_HOME=${BREW_CELLAR_DIR}/terraform/0.12.10
+export TERRAFORM_HOME=${BREW_CELLAR_DIR}/terraform/0.12.11
 export ANSIBLE_HOME=${BREW_CELLAR_DIR}/ansible/2.8.5/libexec
 
 export ANACONDA_HOME=/usr/local/anaconda3
