@@ -82,6 +82,7 @@ brew install ansible
 #Cask installs
 brew cask install java
 brew cask install postman
+brew cask install insomnia
 brew cask install sourcetree
 brew cask install textmate
 brew cask install devcenter
