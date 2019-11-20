@@ -78,6 +78,7 @@ brew install serverless
 
 brew install terraform
 brew install ansible
+brew isntall packer
 
 #Cask installs
 brew cask install java
