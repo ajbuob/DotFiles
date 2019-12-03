@@ -5,12 +5,12 @@ alias j11="export JAVA_HOME=${JAVA11_HOME}"
 alias j12="export JAVA_HOME=${JAVA12_HOME}"
 
 alias idea='cd ~/IdeaProjects'
-alias idea-config='cd ~/Library/Preferences/IntelliJIdea2019.2'
-alias idea-plugins='cd ~/Library/Application\ Support/IntelliJIdea2019.2'
+alias idea-config='cd ~/Library/Preferences/IntelliJIdea2019.3'
+alias idea-plugins='cd ~/Library/Application\ Support/IntelliJIdea2019.3'
 
 alias pycharm='cd ~/PycharmProjects'
-alias pycharm-config='cd ~/Library/Preferences/PyCharm2019.2'
-alias pycharm-plugins='cd ~/Library/Application\ Support/PyCharm2019.2'
+alias pycharm-config='cd ~/Library/Preferences/PyCharm2019.3'
+alias pycharm-plugins='cd ~/Library/Application\ Support/PyCharm2019.3'
 
 alias e80="echo 'rdr pass inet proto tcp from any to any port 80 -> 127.0.0.1 port 8181' | sudo pfctl -ef -"
 
