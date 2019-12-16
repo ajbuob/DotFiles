@@ -13,6 +13,7 @@ brew install dos2unix
 brew install wget
 brew install lftp
 brew install curl
+brew install tree
 
 brew install node
 
