@@ -30,7 +30,7 @@ export PG_HOME=${BREW_CELLAR_DIR}/postgresql/12.1
 export PG_DATA=/usr/local/var/postgres
 export PG_CONFIG=/usr/local/var/postgres
 
-export MONGO_HOME=${BREW_CELLAR_DIR}/mongodb-community/4.2.1
+export MONGO_HOME=${BREW_CELLAR_DIR}/mongodb-community/4.2.2
 export MONGO_DATA=/usr/local/var/mongodb
 export MONGO_LOGS=/usr/local/var/log/mongodb
 export MONGO_CONFIG=/usr/local/etc
@@ -47,7 +47,7 @@ export ES_DATA=/usr/local/var/elasticsearch
 export ES_LOGS=/usr/local/var/log/elasticsearch/
 export ES_CONFIG=/usr/local/etc/elasticsearch/
 
-export KIBANA_HOME=${BREW_CELLAR_DIR}/kibana/6.8.3
+export KIBANA_HOME=${BREW_CELLAR_DIR}/kibana/6.8.6
 export KIBANA_DATA=${KIBANA_HOME}/data
 export KIBANA_CONFIG=/usr/local/etc/kibana/
 
