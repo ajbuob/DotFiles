@@ -35,7 +35,7 @@ export MONGO_DATA=/usr/local/var/mongodb
 export MONGO_LOGS=/usr/local/var/log/mongodb
 export MONGO_CONFIG=/usr/local/etc
 
-export NEO4J_HOME=${BREW_CELLAR_DIR}/neo4j/3.5.12/libexec
+export NEO4J_HOME=${BREW_CELLAR_DIR}/neo4j/3.5.14/libexec
 export NEO4J_DATA=${NEO4J_HOME}/data
 export NEO4J_LOGS=${NEO4J_HOME}/logs
 export NEO4J_CONFIG=${NEO4J_HOME}/conf
@@ -64,6 +64,6 @@ export KAFKA_CONFIG=${KAFKA_HOME}/config
 export KAFKA_LOGS=${KAFKA_HOME}/logs
 
 export TERRAFORM_HOME=${BREW_CELLAR_DIR}/terraform/0.12.18
-export ANSIBLE_HOME=${BREW_CELLAR_DIR}/ansible/2.9.2/libexec
+export ANSIBLE_HOME=${BREW_CELLAR_DIR}/ansible/2.9.2_1/libexec
 
 export ANACONDA_HOME=/usr/local/anaconda3
