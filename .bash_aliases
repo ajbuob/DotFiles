@@ -2,7 +2,7 @@
 
 alias j8="export JAVA_HOME=${JAVA8_HOME}"
 alias j11="export JAVA_HOME=${JAVA11_HOME}"
-alias j12="export JAVA_HOME=${JAVA12_HOME}"
+alias j13="export JAVA_HOME=${JAVA13_HOME}"
 
 alias idea='cd ~/IdeaProjects'
 alias idea-config='cd ~/Library/Preferences/IntelliJIdea2019.3'
