@@ -18,8 +18,8 @@ export HOMEBREW_EDITOR=vim
 
 export PYENV_ROOT=~/.pyenv
 
-export ANT_HOME=${BREW_CELLAR_DIR}/ant/1.10.7/libexec
-export MVN_HOME=${BREW_CELLAR_DIR}/maven/3.6.3/libexec
+export ANT_HOME=${BREW_CELLAR_DIR}/ant/1.10.7_1/libexec
+export MVN_HOME=${BREW_CELLAR_DIR}/maven/3.6.3_1/libexec
 
 export TOMCAT_HOME=${BREW_CELLAR_DIR}/tomcat/9.0.30/libexec
 
