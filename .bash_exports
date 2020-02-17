@@ -26,7 +26,7 @@ export TOMCAT_HOME=${BREW_CELLAR_DIR}/tomcat/9.0.31/libexec
 export HADOOP_HOME=${BREW_CELLAR_DIR}/hadoop/3.2.1
 export HIVE_HOME=${BREW_CELLAR_DIR}/hive/3.1.2/libexec
 
-export PG_HOME=${BREW_CELLAR_DIR}/postgresql/12.1
+export PG_HOME=${BREW_CELLAR_DIR}/postgresql/12.2
 export PG_DATA=/usr/local/var/postgres
 export PG_CONFIG=/usr/local/var/postgres
 
