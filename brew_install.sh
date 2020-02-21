@@ -94,8 +94,9 @@ brew cask install intellij-idea
 brew cask install datagrip
 brew cask install pycharm
 
-brew cask install virtualbox
-brew cask install kitematic
+brew cask install docker-toolbox
+#brew cask install virtualbox
+#brew cask install kitematic
 
 #Docker and completion scripts
 brew install docker
