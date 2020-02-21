@@ -23,7 +23,7 @@ export MVN_HOME=${BREW_CELLAR_DIR}/maven/3.6.3_1/libexec
 
 export TOMCAT_HOME=${BREW_CELLAR_DIR}/tomcat/9.0.31_1/libexec
 
-export HADOOP_HOME=${BREW_CELLAR_DIR}/hadoop/3.2.1
+export HADOOP_HOME=${BREW_CELLAR_DIR}/hadoop/3.2.1_1
 export HIVE_HOME=${BREW_CELLAR_DIR}/hive/3.1.2/libexec
 
 export PG_HOME=${BREW_CELLAR_DIR}/postgresql/12.2
@@ -40,7 +40,7 @@ export NEO4J_DATA=${NEO4J_HOME}/data
 export NEO4J_LOGS=${NEO4J_HOME}/logs
 export NEO4J_CONFIG=${NEO4J_HOME}/conf
 
-export SPARK_HOME=${BREW_CELLAR_DIR}/apache-spark/2.4.5/libexec
+export SPARK_HOME=${BREW_CELLAR_DIR}/apache-spark/2.4.5_1/libexec
 
 export ES_HOME=${BREW_CELLAR_DIR}/elasticsearch/6.8.6/libexec
 export ES_DATA=/usr/local/var/elasticsearch
