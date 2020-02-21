@@ -30,6 +30,9 @@ if which pyenv-virtualenv-init > /dev/null; then eval "$(pyenv virtualenv-init -
 
 echo "PATH: ${PATH}"
 
+#create default machine
+#docker-machine create --driver virtualbox default
+
 # Start/Configure Docker
 DOCKER_RUNNING=$(docker-machine ls --format "{{.Name}}: {{.State}}" --filter name=default)
 if [[ "${DOCKER_RUNNING}" == *"Stopped"* ]]; then
