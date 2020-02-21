@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-brew tap caskroom/cask
+brew tap homebrew/cask-cask
 brew tap homebrew/services
 brew tap mongodb/brew
 
