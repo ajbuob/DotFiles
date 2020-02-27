@@ -56,7 +56,7 @@ export CASSANDRA_DATA=/usr/local/var/lib/cassandra/data
 export CASSANDRA_LOGS=/usr/local/var/log/cassandra
 export CASSANDRA_CONFIG=/usr/local/etc/cassandra
 
-export ZOOKEEPER_HOME=${BREW_CELLAR_DIR}/zookeeper/3.4.14/libexec
+export ZOOKEEPER_HOME=${BREW_CELLAR_DIR}/zookeeper/3.5.7/libexec
 
 export KAFKA_HOME=${BREW_CELLAR_DIR}/kafka/2.4.0/libexec
 export KAFKA_DATA=/usr/local/var/lib/kafka-logs
