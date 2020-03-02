@@ -51,6 +51,8 @@ alias hideFiles='defaults write com.apple.finder AppleShowAllFiles NO;killall Fi
 
 alias minikube-start="minikube start"
 alias minikube-stop="minikube stop"
+alias minikube-status="minikube status"
+alias minikube-dashboard="minikube dashboard"
 
 alias tomcat-start="brew services start tomcat"
 alias tomcat-stop="brew services stop tomcat"
