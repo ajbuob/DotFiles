@@ -49,6 +49,9 @@ alias ajn="${ANACONDA_HOME}/bin/jupyter-notebook"
 alias showFiles='defaults write com.apple.finder AppleShowAllFiles YES;killall Finder /System/Library/CoreServices/Finder.app'
 alias hideFiles='defaults write com.apple.finder AppleShowAllFiles NO;killall Finder /System/Library/CoreServices/Finder.app'
 
+alias minikube-start="minikube start"
+alias minikube-stop="minikube stop"
+
 alias tomcat-start="brew services start tomcat"
 alias tomcat-stop="brew services stop tomcat"
 
