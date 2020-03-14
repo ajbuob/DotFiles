@@ -66,6 +66,6 @@ export KAFKA_LOGS=${KAFKA_HOME}/logs
 
 export TERRAFORM_HOME=${BREW_CELLAR_DIR}/terraform/0.12.23
 export ANSIBLE_HOME=${BREW_CELLAR_DIR}/ansible/2.9.6_1/libexec
-export KUBERNETES_CLI_HOME=${BREW_CELLAR_DIR}/kubernetes-cli/1.17.3
+export KUBERNETES_CLI_HOME=${BREW_CELLAR_DIR}/kubernetes-cli/1.17.4
 
 export ANACONDA_HOME=/usr/local/anaconda3
