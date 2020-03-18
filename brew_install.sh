@@ -106,6 +106,7 @@ brew install docker-compose
 brew install kubernetes-cli	
 brew install minikube
 brew install helm
+brew install helm@2
 brew install circleci
 
 brew install youtube-dl
