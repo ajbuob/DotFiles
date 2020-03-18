@@ -28,9 +28,6 @@ if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi
 # pyenv-virtualenv configuration
 if which pyenv-virtualenv-init > /dev/null; then eval "$(pyenv virtualenv-init -)"; fi
 
-#Add Helm to the path base on the enrionment variable
-export PATH=${HELM_HOME}/bin:$PATH
-
 echo "PATH: ${PATH}"
 
 #create default machine
