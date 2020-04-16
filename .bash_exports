@@ -59,13 +59,13 @@ export CASSANDRA_CONFIG=/usr/local/etc/cassandra
 
 export ZOOKEEPER_HOME=${BREW_CELLAR_DIR}/zookeeper/3.5.7/libexec
 
-export KAFKA_HOME=${BREW_CELLAR_DIR}/kafka/2.4.1/libexec
+export KAFKA_HOME=${BREW_CELLAR_DIR}/kafka/2.5.0/libexec
 export KAFKA_DATA=/usr/local/var/lib/kafka-logs
 export KAFKA_CONFIG=${KAFKA_HOME}/config
 export KAFKA_LOGS=${KAFKA_HOME}/logs
 
 export TERRAFORM_HOME=${BREW_CELLAR_DIR}/terraform/0.12.24
-export ANSIBLE_HOME=${BREW_CELLAR_DIR}/ansible/2.9.6_1/libexec
+export ANSIBLE_HOME=${BREW_CELLAR_DIR}/ansible/2.9.6_2/libexec
 
 export KUBERNETES_CLI_HOME=${BREW_CELLAR_DIR}/kubernetes-cli/1.18.1
 export MINIKUBE_HOME=${BREW_CELLAR_DIR}/minikube/1.9.2
