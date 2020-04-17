@@ -52,7 +52,7 @@ export KIBANA_HOME=${BREW_CELLAR_DIR}/kibana/6.8.7
 export KIBANA_DATA=${KIBANA_HOME}/data
 export KIBANA_CONFIG=/usr/local/etc/kibana/
 
-export CASSANDRA_HOME=${BREW_CELLAR_DIR}/cassandra/3.11.6
+export CASSANDRA_HOME=${BREW_CELLAR_DIR}/cassandra/3.11.6_2
 export CASSANDRA_DATA=/usr/local/var/lib/cassandra/data
 export CASSANDRA_LOGS=/usr/local/var/log/cassandra
 export CASSANDRA_CONFIG=/usr/local/etc/cassandra
@@ -67,7 +67,7 @@ export KAFKA_LOGS=${KAFKA_HOME}/logs
 export TERRAFORM_HOME=${BREW_CELLAR_DIR}/terraform/0.12.24
 export ANSIBLE_HOME=${BREW_CELLAR_DIR}/ansible/2.9.6_2/libexec
 
-export KUBERNETES_CLI_HOME=${BREW_CELLAR_DIR}/kubernetes-cli/1.18.1
+export KUBERNETES_CLI_HOME=${BREW_CELLAR_DIR}/kubernetes-cli/1.18.2
 export MINIKUBE_HOME=${BREW_CELLAR_DIR}/minikube/1.9.2
 
 export HELM2_HOME=${BREW_CELLAR_DIR}/helm@2/2.16.6
