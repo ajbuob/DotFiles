@@ -27,7 +27,7 @@ export TOMCAT_HOME=${BREW_CELLAR_DIR}/tomcat/9.0.35/libexec
 export HADOOP_HOME=${BREW_CELLAR_DIR}/hadoop/3.2.1_1
 export HIVE_HOME=${BREW_CELLAR_DIR}/hive/3.1.2_1/libexec
 
-export PG_HOME=${BREW_CELLAR_DIR}/postgresql/12.3
+export PG_HOME=${BREW_CELLAR_DIR}/postgresql/12.3_1
 export PG_DATA=/usr/local/var/postgres
 export PG_CONFIG=/usr/local/var/postgres
 
@@ -65,7 +65,7 @@ export KAFKA_CONFIG=${KAFKA_HOME}/config
 export KAFKA_LOGS=${KAFKA_HOME}/logs
 
 export TERRAFORM_HOME=${BREW_CELLAR_DIR}/terraform/0.12.24
-export ANSIBLE_HOME=${BREW_CELLAR_DIR}/ansible/2.9.7/libexec
+export ANSIBLE_HOME=${BREW_CELLAR_DIR}/ansible/2.9.9/libexec
 
 export KUBERNETES_CLI_HOME=${BREW_CELLAR_DIR}/kubernetes-cli/1.18.2
 export MINIKUBE_HOME=${BREW_CELLAR_DIR}/minikube/1.10.1
