@@ -27,11 +27,11 @@ export TOMCAT_HOME=${BREW_CELLAR_DIR}/tomcat/9.0.35/libexec
 export HADOOP_HOME=${BREW_CELLAR_DIR}/hadoop/3.2.1_1
 export HIVE_HOME=${BREW_CELLAR_DIR}/hive/3.1.2_1/libexec
 
-export PG_HOME=${BREW_CELLAR_DIR}/postgresql/12.3_2
+export PG_HOME=${BREW_CELLAR_DIR}/postgresql/12.3_3
 export PG_DATA=/usr/local/var/postgres
 export PG_CONFIG=/usr/local/var/postgres
 
-export MONGO_HOME=${BREW_CELLAR_DIR}/mongodb-community/4.2.6
+export MONGO_HOME=${BREW_CELLAR_DIR}/mongodb-community/4.2.7
 export MONGO_DATA=/usr/local/var/mongodb
 export MONGO_LOGS=/usr/local/var/log/mongodb
 export MONGO_CONFIG=/usr/local/etc
