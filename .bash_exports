@@ -18,7 +18,7 @@ export HOMEBREW_EDITOR=vim
 
 export PYENV_ROOT=~/.pyenv
 
-export ANT_HOME=${BREW_CELLAR_DIR}/ant/1.10.8/libexec
+export ANT_HOME=${BREW_CELLAR_DIR}/ant/1.10.8_1/libexec
 export MVN_HOME=${BREW_CELLAR_DIR}/maven/3.6.3_1/libexec
 export GRADLE_HOME=${BREW_CELLAR_DIR}/gradle/6.4.1/libexec
 
@@ -27,7 +27,7 @@ export TOMCAT_HOME=${BREW_CELLAR_DIR}/tomcat/9.0.35/libexec
 export HADOOP_HOME=${BREW_CELLAR_DIR}/hadoop/3.2.1_1
 export HIVE_HOME=${BREW_CELLAR_DIR}/hive/3.1.2_1/libexec
 
-export PG_HOME=${BREW_CELLAR_DIR}/postgresql/12.3_3
+export PG_HOME=${BREW_CELLAR_DIR}/postgresql/12.3_4
 export PG_DATA=/usr/local/var/postgres
 export PG_CONFIG=/usr/local/var/postgres
 
@@ -68,7 +68,7 @@ export TERRAFORM_HOME=${BREW_CELLAR_DIR}/terraform/0.12.26
 export ANSIBLE_HOME=${BREW_CELLAR_DIR}/ansible/2.9.9/libexec
 
 export KUBERNETES_CLI_HOME=${BREW_CELLAR_DIR}/kubernetes-cli/1.18.3
-export MINIKUBE_HOME=${BREW_CELLAR_DIR}/minikube/1.10.1
+export MINIKUBE_HOME=${BREW_CELLAR_DIR}/minikube/1.11.0
 
 export HELM2_HOME=${BREW_CELLAR_DIR}/helm@2/2.16.7
 export HELM3_HOME=${BREW_CELLAR_DIR}/helm/3.2.1
