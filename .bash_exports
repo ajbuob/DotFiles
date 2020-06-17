@@ -31,12 +31,12 @@ export PG_HOME=${BREW_CELLAR_DIR}/postgresql/12.3_4
 export PG_DATA=/usr/local/var/postgres
 export PG_CONFIG=/usr/local/var/postgres
 
-export MONGO_HOME=${BREW_CELLAR_DIR}/mongodb-community/4.2.7
+export MONGO_HOME=${BREW_CELLAR_DIR}/mongodb-community/4.2.8
 export MONGO_DATA=/usr/local/var/mongodb
 export MONGO_LOGS=/usr/local/var/log/mongodb
 export MONGO_CONFIG=/usr/local/etc
 
-export NEO4J_HOME=${BREW_CELLAR_DIR}/neo4j/3.5.14/libexec
+export NEO4J_HOME=${BREW_CELLAR_DIR}/neo4j/4.0.6/libexec
 export NEO4J_DATA=${NEO4J_HOME}/data
 export NEO4J_LOGS=${NEO4J_HOME}/logs
 export NEO4J_CONFIG=${NEO4J_HOME}/conf
