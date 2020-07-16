@@ -24,7 +24,7 @@ export GRADLE_HOME=${BREW_CELLAR_DIR}/gradle/6.5.1/libexec
 
 export TOMCAT_HOME=${BREW_CELLAR_DIR}/tomcat/9.0.37/libexec
 
-export HADOOP_HOME=${BREW_CELLAR_DIR}/hadoop/3.2.1_1
+export HADOOP_HOME=${BREW_CELLAR_DIR}/hadoop/3.3.0
 export HIVE_HOME=${BREW_CELLAR_DIR}/hive/3.1.2_1/libexec
 
 export PG_HOME=${BREW_CELLAR_DIR}/postgresql/12.3_4
