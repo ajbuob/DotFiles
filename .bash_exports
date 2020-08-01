@@ -2,13 +2,13 @@
 
 export AWS_PROFILE=terraform
 
-#/Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home
+#/Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home
 export JAVA8_HOME=`/usr/libexec/java_home -v1.8`
 
-#/Library/Java/JavaVirtualMachines/jdk-11.0.7.jdk/Contents/Home
+#/Library/Java/JavaVirtualMachines/jdk-11.0.8.jdk/Contents/Home
 export JAVA11_HOME=`/usr/libexec/java_home -v11`
 
-#/Library/Java/JavaVirtualMachines/jdk-14.0.1.jdk/Contents/Home
+#/Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home
 export JAVA14_HOME=`/usr/libexec/java_home -v14`
 
 export JAVA_HOME=${JAVA11_HOME}
@@ -43,12 +43,12 @@ export NEO4J_CONFIG=${NEO4J_HOME}/conf
 
 export SPARK_HOME=${BREW_CELLAR_DIR}/apache-spark/2.4.6/libexec
 
-export ES_HOME=${BREW_CELLAR_DIR}/elasticsearch/7.8.0/libexec
+export ES_HOME=${BREW_CELLAR_DIR}/elasticsearch/7.8.1/libexec
 export ES_DATA=/usr/local/var/elasticsearch
 export ES_LOGS=/usr/local/var/log/elasticsearch/
 export ES_CONFIG=/usr/local/etc/elasticsearch/
 
-export KIBANA_HOME=${BREW_CELLAR_DIR}/kibana/7.8.0
+export KIBANA_HOME=${BREW_CELLAR_DIR}/kibana/7.8.1
 export KIBANA_DATA=${KIBANA_HOME}/data
 export KIBANA_CONFIG=/usr/local/etc/kibana/
 
