@@ -8,6 +8,11 @@ alias idea='cd ~/IdeaProjects'
 
 alias e80="echo 'rdr pass inet proto tcp from any to any port 80 -> 127.0.0.1 port 8181' | sudo pfctl -ef -"
 
+alias docker-ps='docker ps -a'
+alias docker-stop='docker stop $(docker ps -a -q)'
+alias docker-rm='docker rm $(docker ps -a -q)'
+alias docker-image-rm='docker rmi $(docker images -a -q)'
+
 alias tc='cd ${TOMCAT_HOME}'
 alias tcb='cd ${TOMCAT_HOME}/bin'
 alias tcl='cd ${TOMCAT_HOME}/logs'
