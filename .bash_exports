@@ -20,7 +20,7 @@ export PYENV_ROOT=~/.pyenv
 
 export ANT_HOME=${BREW_CELLAR_DIR}/ant/1.10.8_1/libexec
 export MVN_HOME=${BREW_CELLAR_DIR}/maven/3.6.3_1/libexec
-export GRADLE_HOME=${BREW_CELLAR_DIR}/gradle/6.6/libexec
+export GRADLE_HOME=${BREW_CELLAR_DIR}/gradle/6.6.1/libexec
 
 export TOMCAT_HOME=${BREW_CELLAR_DIR}/tomcat/9.0.37/libexec
 
@@ -64,10 +64,10 @@ export KAFKA_DATA=/usr/local/var/lib/kafka-logs
 export KAFKA_CONFIG=${KAFKA_HOME}/config
 export KAFKA_LOGS=${KAFKA_HOME}/logs
 
-export TERRAFORM_HOME=${BREW_CELLAR_DIR}/terraform/0.13.0
+export TERRAFORM_HOME=${BREW_CELLAR_DIR}/terraform/0.13.1
 export ANSIBLE_HOME=${BREW_CELLAR_DIR}/ansible/2.9.11/libexec
 
-export KUBERNETES_CLI_HOME=${BREW_CELLAR_DIR}/kubernetes-cli/1.18.8
+export KUBERNETES_CLI_HOME=${BREW_CELLAR_DIR}/kubernetes-cli/1.19.0
 export MINIKUBE_HOME=${BREW_CELLAR_DIR}/minikube/1.12.3
 
 export HELM2_HOME=${BREW_CELLAR_DIR}/helm@2/2.16.10
