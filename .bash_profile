@@ -34,12 +34,12 @@ echo "PATH: ${PATH}"
 #docker-machine create --driver virtualbox default
 
 # Start/Configure Docker
-#DOCKER_RUNNING=$(docker-machine ls --format "{{.Name}}: {{.State}}" --filter name=default)
-#if [[ "${DOCKER_RUNNING}" == *"Stopped"* ]]; then
-#    docker-machine start default
-#    eval "$(docker-machine env default)"
-#    env | grep "DOCKER"
-#elif [[ "${DOCKER_RUNNING}" == *"Running"* ]]; then
-#    eval "$(docker-machine env default)"
-#    env | grep "DOCKER"
-#fi
+DOCKER_RUNNING=$(docker-machine ls --format "{{.Name}}: {{.State}}" --filter name=default)
+if [[ "${DOCKER_RUNNING}" == *"Stopped"* ]]; then
+    docker-machine start default
+    eval "$(docker-machine env default)"
+    env | grep "DOCKER"
+elif [[ "${DOCKER_RUNNING}" == *"Running"* ]]; then
+    eval "$(docker-machine env default)"
+    env | grep "DOCKER"
+fi
