@@ -20,14 +20,14 @@ export PYENV_ROOT=~/.pyenv
 
 export ANT_HOME=${BREW_CELLAR_DIR}/ant/1.10.9/libexec
 export MVN_HOME=${BREW_CELLAR_DIR}/maven/3.6.3_1/libexec
-export GRADLE_HOME=${BREW_CELLAR_DIR}/gradle/6.6.1/libexec
+export GRADLE_HOME=${BREW_CELLAR_DIR}/gradle/6.7/libexec
 
 export TOMCAT_HOME=${BREW_CELLAR_DIR}/tomcat/9.0.39/libexec
 
 export HADOOP_HOME=${BREW_CELLAR_DIR}/hadoop/3.3.0
 export HIVE_HOME=${BREW_CELLAR_DIR}/hive/3.1.2_1/libexec
 
-export PG_HOME=${BREW_CELLAR_DIR}/postgresql/12.4
+export PG_HOME=${BREW_CELLAR_DIR}/postgresql/13.0
 export PG_DATA=/usr/local/var/postgres
 export PG_CONFIG=/usr/local/var/postgres
 
@@ -48,7 +48,7 @@ export ES_DATA=/usr/local/var/elasticsearch
 export ES_LOGS=/usr/local/var/log/elasticsearch/
 export ES_CONFIG=/usr/local/etc/elasticsearch/
 
-export KIBANA_HOME=${BREW_CELLAR_DIR}/kibana/7.9.2
+export KIBANA_HOME=${BREW_CELLAR_DIR}/kibana/7.8.1_1
 export KIBANA_DATA=${KIBANA_HOME}/data
 export KIBANA_CONFIG=/usr/local/etc/kibana/
 
@@ -67,7 +67,7 @@ export KAFKA_LOGS=${KAFKA_HOME}/logs
 export TERRAFORM_HOME=${BREW_CELLAR_DIR}/terraform/0.13.4
 export ANSIBLE_HOME=${BREW_CELLAR_DIR}/ansible/2.9.13_1/libexec
 
-export KUBERNETES_CLI_HOME=${BREW_CELLAR_DIR}/kubernetes-cli/1.19.2
+export KUBERNETES_CLI_HOME=${BREW_CELLAR_DIR}/kubernetes-cli/1.19.3
 export MINIKUBE_HOME=${BREW_CELLAR_DIR}/minikube/1.14.0
 
 export HELM2_HOME=${BREW_CELLAR_DIR}/helm@2/2.16.12
