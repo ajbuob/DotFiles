@@ -2,7 +2,7 @@
 
 alias j8="export JAVA_HOME=${JAVA8_HOME}"
 alias j11="export JAVA_HOME=${JAVA11_HOME}"
-alias j14="export JAVA_HOME=${JAVA14_HOME}"
+alias jex="export JAVA_HOME=${JAVAEX_HOME}"
 
 alias idea='cd ~/IdeaProjects'
 
