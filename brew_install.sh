@@ -92,21 +92,26 @@ brew cask install the-unarchiver
 
 brew cask install intellij-idea
 brew cask install datagrip
-brew cask install pycharm
 
-brew cask install docker-toolbox
-#brew cask install virtualbox
-#brew cask install kitematic
+brew cask install kubernetic
+brew cask install cyberduck
+brew cask install robo-3t
+
+brew cask install docker
+brew cask install virtualbox
 
 #Docker and completion scripts
 brew install docker
-brew install docker-machine
 brew install docker-compose
+brew install docker-machine (not included with Docker Desktop)
 
 brew install kubernetes-cli	
 brew install minikube
 brew install helm
 brew install helm@2
 brew install circleci
+
+brew install kubectx
+brew install stern
 
 brew install youtube-dl
