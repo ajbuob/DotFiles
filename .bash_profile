@@ -28,6 +28,15 @@ if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi
 # pyenv-virtualenv configuration
 if which pyenv-virtualenv-init > /dev/null; then eval "$(pyenv virtualenv-init -)"; fi
 
+# kubectx added to command prompt
+if command -v kubectx &> /dev/null; then
+	if ! [[ "$PS1" =~ ^\$\(kube_ps1\).* ]]; then
+		export KUBE_PS1_SYMBOL_ENABLE=false
+		source "/usr/local/opt/kube-ps1/share/kube-ps1.sh"
+		PS1='$(kube_ps1)'" "$PS1	
+	fi	
+fi
+
 echo "PATH: ${PATH}"
 
 #create default machine
