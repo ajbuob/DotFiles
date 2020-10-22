@@ -21,12 +21,12 @@ unset file
 #/usr/local/sbin added for homebrew installs
 export PATH=/usr/local/sbin:~/bin:${PATH}
 #export PATH=${ANACONDA_HOME}/bin:${PATH}
-export PATH=${PYENV_ROOT}/bin:$PATH
+#export PATH=${PYENV_ROOT}/bin:$PATH
 
 # pyenv configuration
-if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi
+#if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi
 # pyenv-virtualenv configuration
-if which pyenv-virtualenv-init > /dev/null; then eval "$(pyenv virtualenv-init -)"; fi
+#if which pyenv-virtualenv-init > /dev/null; then eval "$(pyenv virtualenv-init -)"; fi
 
 # kubectx added to command prompt
 if command -v kubectx &> /dev/null; then
