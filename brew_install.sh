@@ -112,6 +112,7 @@ brew install helm@2
 brew install circleci
 
 brew install kubectx
+brew install kube-ps1
 brew install stern
 
 brew install youtube-dl
