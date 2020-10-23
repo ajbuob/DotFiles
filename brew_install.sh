@@ -97,13 +97,14 @@ brew cask install kubernetic
 brew cask install cyberduck
 brew cask install robo-3t
 
-brew cask install docker
+brew cask install docker (aka Docker Desktop)
 brew cask install virtualbox
 
 #Docker and completion scripts
 brew install docker
 brew install docker-compose
 brew install docker-machine (not included with Docker Desktop)
+brew install docker-credential-helper-ecr (included with Docker Desktop)
 
 brew install kubernetes-cli	
 brew install minikube
