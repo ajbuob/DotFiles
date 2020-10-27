@@ -70,7 +70,7 @@ export ANSIBLE_HOME=${BREW_CELLAR_DIR}/ansible/2.9.13_1/libexec
 export KUBERNETES_CLI_HOME=${BREW_CELLAR_DIR}/kubernetes-cli/1.19.3
 export MINIKUBE_HOME=${BREW_CELLAR_DIR}/minikube/1.14.1
 
-export HELM2_HOME=${BREW_CELLAR_DIR}/helm@2/2.16.12
-export HELM3_HOME=${BREW_CELLAR_DIR}/helm/3.3.4
+export HELM2_HOME=${BREW_CELLAR_DIR}/helm@2/2.17.0
+export HELM3_HOME=${BREW_CELLAR_DIR}/helm/3.4.0
 
 export ANACONDA_HOME=/usr/local/anaconda3
