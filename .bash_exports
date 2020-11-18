@@ -22,12 +22,12 @@ export ANT_HOME=${BREW_CELLAR_DIR}/ant/1.10.9/libexec
 export MVN_HOME=${BREW_CELLAR_DIR}/maven/3.6.3_1/libexec
 export GRADLE_HOME=${BREW_CELLAR_DIR}/gradle/6.7.1/libexec
 
-export TOMCAT_HOME=${BREW_CELLAR_DIR}/tomcat/9.0.39/libexec
+export TOMCAT_HOME=${BREW_CELLAR_DIR}/tomcat/9.0.40/libexec
 
 export HADOOP_HOME=${BREW_CELLAR_DIR}/hadoop/3.3.0
 export HIVE_HOME=${BREW_CELLAR_DIR}/hive/3.1.2_1/libexec
 
-export PG_HOME=${BREW_CELLAR_DIR}/postgresql/13.0
+export PG_HOME=${BREW_CELLAR_DIR}/postgresql/13.1
 export PG_DATA=/usr/local/var/postgres
 export PG_CONFIG=/usr/local/var/postgres
 
@@ -36,7 +36,7 @@ export MONGO_DATA=/usr/local/var/mongodb
 export MONGO_LOGS=/usr/local/var/log/mongodb
 export MONGO_CONFIG=/usr/local/etc
 
-export NEO4J_HOME=${BREW_CELLAR_DIR}/neo4j/4.1.4/libexec
+export NEO4J_HOME=${BREW_CELLAR_DIR}/neo4j/4.2.0/libexec
 export NEO4J_DATA=${NEO4J_HOME}/data
 export NEO4J_LOGS=${NEO4J_HOME}/logs
 export NEO4J_CONFIG=${NEO4J_HOME}/conf
