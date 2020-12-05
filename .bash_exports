@@ -36,11 +36,6 @@ export MONGO_DATA=/usr/local/var/mongodb
 export MONGO_LOGS=/usr/local/var/log/mongodb
 export MONGO_CONFIG=/usr/local/etc
 
-export NEO4J_HOME=${BREW_CELLAR_DIR}/neo4j/4.2.1/libexec
-export NEO4J_DATA=${NEO4J_HOME}/data
-export NEO4J_LOGS=${NEO4J_HOME}/logs
-export NEO4J_CONFIG=${NEO4J_HOME}/conf
-
 export SPARK_HOME=${BREW_CELLAR_DIR}/apache-spark/3.0.1/libexec
 
 export ES_HOME=${BREW_CELLAR_DIR}/elasticsearch/7.10.0/libexec
@@ -51,11 +46,6 @@ export ES_CONFIG=/usr/local/etc/elasticsearch/
 export KIBANA_HOME=${BREW_CELLAR_DIR}/kibana/7.10.0
 export KIBANA_DATA=${KIBANA_HOME}/data
 export KIBANA_CONFIG=/usr/local/etc/kibana/
-
-export CASSANDRA_HOME=${BREW_CELLAR_DIR}/cassandra/3.11.9_1
-export CASSANDRA_DATA=/usr/local/var/lib/cassandra/data
-export CASSANDRA_LOGS=/usr/local/var/log/cassandra
-export CASSANDRA_CONFIG=/usr/local/etc/cassandra
 
 export ZOOKEEPER_HOME=${BREW_CELLAR_DIR}/zookeeper/3.6.2_1/libexec
 

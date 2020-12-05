@@ -65,9 +65,6 @@ brew install kibana
 brew install r
 
 brew install mongodb-community
-brew install neo4j
-brew install cassandra
-brew install solr
 
 brew install zookeeper
 brew install kafka
