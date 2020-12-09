@@ -38,7 +38,7 @@ export MONGO_CONFIG=/usr/local/etc
 
 export SPARK_HOME=${BREW_CELLAR_DIR}/apache-spark/3.0.1/libexec
 
-export ES_HOME=${BREW_CELLAR_DIR}/elasticsearch/7.10.0/libexec
+export ES_HOME=${BREW_CELLAR_DIR}/elasticsearch/7.10.1/libexec
 export ES_DATA=/usr/local/var/elasticsearch
 export ES_LOGS=/usr/local/var/log/elasticsearch/
 export ES_CONFIG=/usr/local/etc/elasticsearch/
@@ -61,6 +61,6 @@ export KUBERNETES_CLI_HOME=${BREW_CELLAR_DIR}/kubernetes-cli/1.19.4
 export MINIKUBE_HOME=${BREW_CELLAR_DIR}/minikube/1.15.1
 
 export HELM2_HOME=${BREW_CELLAR_DIR}/helm@2/2.17.0
-export HELM3_HOME=${BREW_CELLAR_DIR}/helm/3.4.1
+export HELM3_HOME=${BREW_CELLAR_DIR}/helm/3.4.2
 
 export ANACONDA_HOME=/usr/local/anaconda3
