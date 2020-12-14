@@ -43,7 +43,7 @@ export ES_DATA=/usr/local/var/elasticsearch
 export ES_LOGS=/usr/local/var/log/elasticsearch/
 export ES_CONFIG=/usr/local/etc/elasticsearch/
 
-export KIBANA_HOME=${BREW_CELLAR_DIR}/kibana/7.10.0
+export KIBANA_HOME=${BREW_CELLAR_DIR}/kibana/7.10.1
 export KIBANA_DATA=${KIBANA_HOME}/data
 export KIBANA_CONFIG=/usr/local/etc/kibana/
 
@@ -55,7 +55,7 @@ export KAFKA_CONFIG=${KAFKA_HOME}/config
 export KAFKA_LOGS=${KAFKA_HOME}/logs
 
 export TERRAFORM_HOME=${BREW_CELLAR_DIR}/terraform/0.14.2
-export ANSIBLE_HOME=${BREW_CELLAR_DIR}/ansible/2.10.3_1/libexec
+export ANSIBLE_HOME=${BREW_CELLAR_DIR}/ansible/2.10.4/libexec
 
 export KUBERNETES_CLI_HOME=${BREW_CELLAR_DIR}/kubernetes-cli/1.19.4
 export MINIKUBE_HOME=${BREW_CELLAR_DIR}/minikube/1.15.1
