@@ -2,13 +2,13 @@
 
 #export AWS_PROFILE=terraform
 
-#/Library/Java/JavaVirtualMachines/jdk1.8.0_271.jdk/Contents/Home
+#/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home
 export JAVA8_HOME=`/usr/libexec/java_home -v1.8`
 
-#/Library/Java/JavaVirtualMachines/jdk-11.0.9.jdk/Contents/Home
+#/Library/Java/JavaVirtualMachines/jdk-11.0.10.jdk/Contents/Home
 export JAVA11_HOME=`/usr/libexec/java_home -v11`
 
-#/Library/Java/JavaVirtualMachines/jdk-15.0.1.jdk/Contents/Home
+#/Library/Java/JavaVirtualMachines/jdk-15.0.2.jdk/Contents/Home
 export JAVAEX_HOME=`/usr/libexec/java_home -v15`
 
 export JAVA_HOME=${JAVA11_HOME}
@@ -20,7 +20,7 @@ export PYENV_ROOT=~/.pyenv
 
 export ANT_HOME=${BREW_CELLAR_DIR}/ant/1.10.9/libexec
 export MVN_HOME=${BREW_CELLAR_DIR}/maven/3.6.3_1/libexec
-export GRADLE_HOME=${BREW_CELLAR_DIR}/gradle/6.8/libexec
+export GRADLE_HOME=${BREW_CELLAR_DIR}/gradle/6.8.1/libexec
 
 export TOMCAT_HOME=${BREW_CELLAR_DIR}/tomcat/9.0.41/libexec
 
@@ -58,7 +58,7 @@ export TERRAFORM_HOME=${BREW_CELLAR_DIR}/terraform/0.14.5
 export ANSIBLE_HOME=${BREW_CELLAR_DIR}/ansible/2.10.5/libexec
 
 export KUBE_CLI_HOME=${BREW_CELLAR_DIR}/kubernetes-cli/1.20.2
-export MINIKUBE_HOME=${BREW_CELLAR_DIR}/minikube/1.16.0
+export MINIKUBE_HOME=${BREW_CELLAR_DIR}/minikube/1.17.0
 
 export HELM2_HOME=${BREW_CELLAR_DIR}/helm@2/2.17.0
 export HELM3_HOME=${BREW_CELLAR_DIR}/helm/3.5.0
