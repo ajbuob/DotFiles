@@ -36,7 +36,7 @@ export MONGO_DATA=/usr/local/var/mongodb
 export MONGO_LOGS=/usr/local/var/log/mongodb
 export MONGO_CONFIG=/usr/local/etc
 
-export SPARK_HOME=${BREW_CELLAR_DIR}/apache-spark/3.0.1/libexec
+export SPARK_HOME=${BREW_CELLAR_DIR}/apache-spark/3.0.2/libexec
 
 export ES_HOME=${BREW_CELLAR_DIR}/elasticsearch/7.10.2/libexec
 export ES_DATA=/usr/local/var/elasticsearch
@@ -57,7 +57,7 @@ export KAFKA_LOGS=${KAFKA_HOME}/logs
 export TERRAFORM_HOME=${BREW_CELLAR_DIR}/terraform/0.14.7
 export ANSIBLE_HOME=${BREW_CELLAR_DIR}/ansible/2.10.6/libexec
 
-export KUBE_CLI_HOME=${BREW_CELLAR_DIR}/kubernetes-cli/1.20.3
+export KUBE_CLI_HOME=${BREW_CELLAR_DIR}/kubernetes-cli/1.20.4
 export MINIKUBE_HOME=${BREW_CELLAR_DIR}/minikube/1.17.1
 
 export HELM2_HOME=${BREW_CELLAR_DIR}/helm@2/2.17.0
