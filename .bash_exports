@@ -58,7 +58,7 @@ export TERRAFORM_HOME=${BREW_CELLAR_DIR}/terraform/0.14.7
 export ANSIBLE_HOME=${BREW_CELLAR_DIR}/ansible/3.0.0/libexec
 
 export KUBE_CLI_HOME=${BREW_CELLAR_DIR}/kubernetes-cli/1.20.4
-export MINIKUBE_HOME=${BREW_CELLAR_DIR}/minikube/1.18.0
+export MINIKUBE_HOME=${BREW_CELLAR_DIR}/minikube/1.18.1
 
 export HELM2_HOME=${BREW_CELLAR_DIR}/helm@2/2.17.0
 export HELM3_HOME=${BREW_CELLAR_DIR}/helm/3.5.2
