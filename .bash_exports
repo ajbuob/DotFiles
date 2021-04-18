@@ -18,7 +18,7 @@ export HOMEBREW_EDITOR=vim
 
 export PYENV_ROOT=~/.pyenv
 
-export ANT_HOME=${BREW_CELLAR_DIR}/ant/1.10.9/libexec
+export ANT_HOME=${BREW_CELLAR_DIR}/ant/1.10.10/libexec
 export MVN_HOME=${BREW_CELLAR_DIR}/maven/3.8.1/libexec
 export GRADLE_HOME=${BREW_CELLAR_DIR}/gradle/7.0/libexec
 
