@@ -49,7 +49,7 @@ export KIBANA_CONFIG=/usr/local/etc/kibana/
 
 export ZOOKEEPER_HOME=${BREW_CELLAR_DIR}/zookeeper/3.7.0/libexec
 
-export KAFKA_HOME=${BREW_CELLAR_DIR}/kafka/2.7.0/libexec
+export KAFKA_HOME=${BREW_CELLAR_DIR}/kafka/2.8.0/libexec
 export KAFKA_DATA=/usr/local/var/lib/kafka-logs
 export KAFKA_CONFIG=${KAFKA_HOME}/config
 export KAFKA_LOGS=${KAFKA_HOME}/logs
