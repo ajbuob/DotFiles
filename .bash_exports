@@ -31,7 +31,7 @@ export PG_HOME=${BREW_CELLAR_DIR}/postgresql/13.2_1
 export PG_DATA=/usr/local/var/postgres
 export PG_CONFIG=/usr/local/var/postgres
 
-export MONGO_HOME=${BREW_CELLAR_DIR}/mongodb-community/4.4.4
+export MONGO_HOME=${BREW_CELLAR_DIR}/mongodb-community/4.4.5
 export MONGO_DATA=/usr/local/var/mongodb
 export MONGO_LOGS=/usr/local/var/log/mongodb
 export MONGO_CONFIG=/usr/local/etc
@@ -54,8 +54,8 @@ export KAFKA_DATA=/usr/local/var/lib/kafka-logs
 export KAFKA_CONFIG=${KAFKA_HOME}/config
 export KAFKA_LOGS=${KAFKA_HOME}/logs
 
-export TERRAFORM_HOME=${BREW_CELLAR_DIR}/terraform/0.15.0
-export ANSIBLE_HOME=${BREW_CELLAR_DIR}/ansible/3.2.0/libexec
+export TERRAFORM_HOME=${BREW_CELLAR_DIR}/terraform/0.15.1
+export ANSIBLE_HOME=${BREW_CELLAR_DIR}/ansible/3.3.0/libexec
 
 export KUBE_CLI_HOME=${BREW_CELLAR_DIR}/kubernetes-cli/1.21.0
 export MINIKUBE_HOME=${BREW_CELLAR_DIR}/minikube/1.19.0
