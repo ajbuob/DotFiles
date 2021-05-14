@@ -20,14 +20,14 @@ export PYENV_ROOT=~/.pyenv
 
 export ANT_HOME=${BREW_CELLAR_DIR}/ant/1.10.10/libexec
 export MVN_HOME=${BREW_CELLAR_DIR}/maven/3.8.1/libexec
-export GRADLE_HOME=${BREW_CELLAR_DIR}/gradle/7.0.1/libexec
+export GRADLE_HOME=${BREW_CELLAR_DIR}/gradle/7.0.2/libexec
 
 export TOMCAT_HOME=${BREW_CELLAR_DIR}/tomcat/10.0.6/libexec
 
 export HADOOP_HOME=${BREW_CELLAR_DIR}/hadoop/3.3.0
 export HIVE_HOME=${BREW_CELLAR_DIR}/hive/3.1.2_2/libexec
 
-export PG_HOME=${BREW_CELLAR_DIR}/postgresql/13.2_1
+export PG_HOME=${BREW_CELLAR_DIR}/postgresql/13.3
 export PG_DATA=/usr/local/var/postgres
 export PG_CONFIG=/usr/local/var/postgres
 
