@@ -85,6 +85,7 @@ brew cask install textmate
 brew cask install devcenter
 brew cask install google-chrome
 brew cask install the-unarchiver
+brew cask install another-redis-desktop-manager
 
 brew cask install intellij-idea
 brew cask install datagrip
@@ -113,5 +114,7 @@ brew install kube-ps1
 brew install stern
 
 brew install kafkacat
+
+brew install redis
 
 brew install youtube-dl
