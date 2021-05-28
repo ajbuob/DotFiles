@@ -31,12 +31,12 @@ export PG_HOME=${BREW_CELLAR_DIR}/postgresql/13.3
 export PG_DATA=/usr/local/var/postgres
 export PG_CONFIG=/usr/local/var/postgres
 
-export MONGO_HOME=${BREW_CELLAR_DIR}/mongodb-community/4.4.5
+export MONGO_HOME=${BREW_CELLAR_DIR}/mongodb-community/5.0.0-rc0
 export MONGO_DATA=/usr/local/var/mongodb
 export MONGO_LOGS=/usr/local/var/log/mongodb
 export MONGO_CONFIG=/usr/local/etc
 
-export SPARK_HOME=${BREW_CELLAR_DIR}/apache-spark/3.1.1/libexec
+export SPARK_HOME=${BREW_CELLAR_DIR}/apache-spark/3.1.2/libexec
 
 export ES_HOME=${BREW_CELLAR_DIR}/elasticsearch/7.10.2/libexec
 export ES_DATA=/usr/local/var/elasticsearch
@@ -60,6 +60,6 @@ export KUBE_CLI_HOME=${BREW_CELLAR_DIR}/kubernetes-cli/1.21.0
 export MINIKUBE_HOME=${BREW_CELLAR_DIR}/minikube/1.20.0_1
 
 export HELM2_HOME=${BREW_CELLAR_DIR}/helm@2/2.17.0
-export HELM3_HOME=${BREW_CELLAR_DIR}/helm/3.5.4
+export HELM3_HOME=${BREW_CELLAR_DIR}/helm/3.6.0
 
 export ANACONDA_HOME=/usr/local/anaconda3
