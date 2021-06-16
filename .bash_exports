@@ -3,7 +3,7 @@
 #export AWS_PROFILE=terraform
 
 #/Library/Java/JavaVirtualMachines/jdk1.8.0_291.jdk/Contents/Home
-export JAVA8_HOME=`/usr/libexec/java_home -v1.8`
+export JAVA8_HOME="$(/usr/libexec/java_home -v1.8.0)"
 
 #/Library/Java/JavaVirtualMachines/jdk-11.0.11.jdk/Contents/Home
 export JAVA11_HOME=`/usr/libexec/java_home -v11`
