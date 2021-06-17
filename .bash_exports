@@ -60,6 +60,6 @@ export KUBE_CLI_HOME=${BREW_CELLAR_DIR}/kubernetes-cli/1.21.0
 export MINIKUBE_HOME=${BREW_CELLAR_DIR}/minikube/1.21.0
 
 export HELM2_HOME=${BREW_CELLAR_DIR}/helm@2/2.17.0
-export HELM3_HOME=${BREW_CELLAR_DIR}/helm/3.6.0
+export HELM3_HOME=${BREW_CELLAR_DIR}/helm/3.6.1
 
 export ANACONDA_HOME=/usr/local/anaconda3
