@@ -24,7 +24,7 @@ export GRADLE_HOME=${BREW_CELLAR_DIR}/gradle/7.1/libexec
 
 export TOMCAT_HOME=${BREW_CELLAR_DIR}/tomcat/10.0.7/libexec
 
-export HADOOP_HOME=${BREW_CELLAR_DIR}/hadoop/3.3.0
+export HADOOP_HOME=${BREW_CELLAR_DIR}/hadoop/3.3.1
 export HIVE_HOME=${BREW_CELLAR_DIR}/hive/3.1.2_2/libexec
 
 export PG_HOME=${BREW_CELLAR_DIR}/postgresql/13.3
@@ -56,7 +56,7 @@ export KAFKA_LOGS=${KAFKA_HOME}/logs
 
 export TERRAFORM_HOME=${BREW_CELLAR_DIR}/terraform/1.0.0
 
-export KUBE_CLI_HOME=${BREW_CELLAR_DIR}/kubernetes-cli/1.21.0
+export KUBE_CLI_HOME=${BREW_CELLAR_DIR}/kubernetes-cli/1.21.2
 export MINIKUBE_HOME=${BREW_CELLAR_DIR}/minikube/1.21.0
 
 export HELM2_HOME=${BREW_CELLAR_DIR}/helm@2/2.17.0
