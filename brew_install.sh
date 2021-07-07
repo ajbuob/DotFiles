@@ -97,6 +97,8 @@ brew cask install robo-3t
 brew cask install docker (aka Docker Desktop)
 brew cask install virtualbox
 
+brew install --cask oktadeveloper/tap/okta
+
 #Docker and completion scripts
 brew install docker
 brew install docker-compose
