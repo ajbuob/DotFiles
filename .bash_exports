@@ -57,7 +57,7 @@ export KAFKA_LOGS=${KAFKA_HOME}/logs
 export TERRAFORM_HOME=${BREW_CELLAR_DIR}/terraform/1.0.6
 
 export KUBE_CLI_HOME=${BREW_CELLAR_DIR}/kubernetes-cli/1.22.1
-export MINIKUBE_HOME=${BREW_CELLAR_DIR}/minikube/1.22.0
+export MINIKUBE_HOME=${BREW_CELLAR_DIR}/minikube/1.23.0
 
 export HELM2_HOME=${BREW_CELLAR_DIR}/helm@2/2.17.0
 export HELM3_HOME=${BREW_CELLAR_DIR}/helm/3.6.3
