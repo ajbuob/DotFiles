@@ -19,7 +19,7 @@ export HOMEBREW_EDITOR=vim
 export PYENV_ROOT=~/.pyenv
 
 export ANT_HOME=${BREW_CELLAR_DIR}/ant/1.10.11/libexec
-export MVN_HOME=${BREW_CELLAR_DIR}/maven/3.8.2/libexec
+export MVN_HOME=${BREW_CELLAR_DIR}/maven/3.8.3/libexec
 export GRADLE_HOME=${BREW_CELLAR_DIR}/gradle/7.2/libexec
 
 export TOMCAT_HOME=${BREW_CELLAR_DIR}/tomcat/10.0.11/libexec
@@ -27,7 +27,7 @@ export TOMCAT_HOME=${BREW_CELLAR_DIR}/tomcat/10.0.11/libexec
 export HADOOP_HOME=${BREW_CELLAR_DIR}/hadoop/3.3.1
 export HIVE_HOME=${BREW_CELLAR_DIR}/hive/3.1.2_3/libexec
 
-export PG_HOME=${BREW_CELLAR_DIR}/postgresql/13.4
+export PG_HOME=${BREW_CELLAR_DIR}/postgresql/14.0
 export PG_DATA=/usr/local/var/postgres
 export PG_CONFIG=/usr/local/var/postgres
 
@@ -53,6 +53,8 @@ export KAFKA_HOME=${BREW_CELLAR_DIR}/kafka/3.0.0/libexec
 export KAFKA_DATA=/usr/local/var/lib/kafka-logs
 export KAFKA_CONFIG=${KAFKA_HOME}/config
 export KAFKA_LOGS=${KAFKA_HOME}/logs
+
+export REDIS_HOME=${BREW_CELLAR_DIR}/redis/6.2.6
 
 export TERRAFORM_HOME=${BREW_CELLAR_DIR}/terraform/1.0.8
 
