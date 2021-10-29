@@ -56,7 +56,7 @@ export KAFKA_LOGS=${KAFKA_HOME}/logs
 
 export REDIS_HOME=${BREW_CELLAR_DIR}/redis/6.2.6
 
-export TERRAFORM_HOME=${BREW_CELLAR_DIR}/terraform/1.0.9
+export TERRAFORM_HOME=${BREW_CELLAR_DIR}/terraform/1.0.10
 
 export KUBE_CLI_HOME=${BREW_CELLAR_DIR}/kubernetes-cli/1.22.2
 export MINIKUBE_HOME=${BREW_CELLAR_DIR}/minikube/1.23.2
