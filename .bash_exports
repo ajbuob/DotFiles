@@ -20,7 +20,7 @@ export PYENV_ROOT=~/.pyenv
 
 export ANT_HOME=${BREW_CELLAR_DIR}/ant/1.10.12/libexec
 export MVN_HOME=${BREW_CELLAR_DIR}/maven/3.8.4/libexec
-export GRADLE_HOME=${BREW_CELLAR_DIR}/gradle/7.3/libexec
+export GRADLE_HOME=${BREW_CELLAR_DIR}/gradle/7.3.1/libexec
 
 export TOMCAT_HOME=${BREW_CELLAR_DIR}/tomcat/10.0.13/libexec
 
@@ -31,7 +31,7 @@ export PG_HOME=${BREW_CELLAR_DIR}/postgresql/14.0
 export PG_DATA=/usr/local/var/postgres
 export PG_CONFIG=/usr/local/var/postgres
 
-export MONGO_HOME=${BREW_CELLAR_DIR}/mongodb-community/5.0.3
+export MONGO_HOME=${BREW_CELLAR_DIR}/mongodb-community/5.0.4
 export MONGO_DATA=/usr/local/var/mongodb
 export MONGO_LOGS=/usr/local/var/log/mongodb
 export MONGO_CONFIG=/usr/local/etc
