@@ -22,7 +22,7 @@ export ANT_HOME=${BREW_CELLAR_DIR}/ant/1.10.12/libexec
 export MVN_HOME=${BREW_CELLAR_DIR}/maven/3.8.4/libexec
 export GRADLE_HOME=${BREW_CELLAR_DIR}/gradle/7.3.1/libexec
 
-export TOMCAT_HOME=${BREW_CELLAR_DIR}/tomcat/10.0.13/libexec
+export TOMCAT_HOME=${BREW_CELLAR_DIR}/tomcat/10.0.14/libexec
 
 export HADOOP_HOME=${BREW_CELLAR_DIR}/hadoop/3.3.1
 export HIVE_HOME=${BREW_CELLAR_DIR}/hive/3.1.2_3/libexec
@@ -58,10 +58,10 @@ export REDIS_HOME=${BREW_CELLAR_DIR}/redis/6.2.6
 
 export TERRAFORM_HOME=${BREW_CELLAR_DIR}/terraform/1.0.11
 
-export KUBE_CLI_HOME=${BREW_CELLAR_DIR}/kubernetes-cli/1.22.4
+export KUBE_CLI_HOME=${BREW_CELLAR_DIR}/kubernetes-cli/1.23.0
 export MINIKUBE_HOME=${BREW_CELLAR_DIR}/minikube/1.24.0
 
 export HELM2_HOME=${BREW_CELLAR_DIR}/helm@2/2.17.0
-export HELM3_HOME=${BREW_CELLAR_DIR}/helm/3.7.1
+export HELM3_HOME=${BREW_CELLAR_DIR}/helm/3.7.2
 
 export ANACONDA_HOME=/usr/local/anaconda3
