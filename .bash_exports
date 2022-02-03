@@ -31,12 +31,12 @@ export PG_HOME=${BREW_CELLAR_DIR}/postgresql/14.0
 export PG_DATA=/usr/local/var/postgres
 export PG_CONFIG=/usr/local/var/postgres
 
-export MONGO_HOME=${BREW_CELLAR_DIR}/mongodb-community/5.0.5
+export MONGO_HOME=${BREW_CELLAR_DIR}/mongodb-community/5.0.6
 export MONGO_DATA=/usr/local/var/mongodb
 export MONGO_LOGS=/usr/local/var/log/mongodb
 export MONGO_CONFIG=/usr/local/etc
 
-export SPARK_HOME=${BREW_CELLAR_DIR}/apache-spark/3.2.0/libexec
+export SPARK_HOME=${BREW_CELLAR_DIR}/apache-spark/3.2.1/libexec
 
 export ES_HOME=${BREW_CELLAR_DIR}/elasticsearch/7.10.2/libexec
 export ES_DATA=/usr/local/var/elasticsearch
@@ -49,19 +49,18 @@ export KIBANA_CONFIG=/usr/local/etc/kibana/
 
 export ZOOKEEPER_HOME=${BREW_CELLAR_DIR}/zookeeper/3.7.0_1/libexec
 
-export KAFKA_HOME=${BREW_CELLAR_DIR}/kafka/3.0.0/libexec
+export KAFKA_HOME=${BREW_CELLAR_DIR}/kafka/3.1.0/libexec
 export KAFKA_DATA=/usr/local/var/lib/kafka-logs
 export KAFKA_CONFIG=${KAFKA_HOME}/config
 export KAFKA_LOGS=${KAFKA_HOME}/logs
 
 export REDIS_HOME=${BREW_CELLAR_DIR}/redis/6.2.6
 
-export TERRAFORM_HOME=${BREW_CELLAR_DIR}/terraform/1.1.4
+export TERRAFORM_HOME=${BREW_CELLAR_DIR}/terraform/1.1.5
 
-export KUBE_CLI_HOME=${BREW_CELLAR_DIR}/kubernetes-cli/1.23.2
+export KUBE_CLI_HOME=${BREW_CELLAR_DIR}/kubernetes-cli/1.23.3
 export MINIKUBE_HOME=${BREW_CELLAR_DIR}/minikube/1.25.1
 
-export HELM2_HOME=${BREW_CELLAR_DIR}/helm@2/2.17.0
-export HELM3_HOME=${BREW_CELLAR_DIR}/helm/3.7.2
+export HELM_HOME=${BREW_CELLAR_DIR}/helm/3.8.0
 
 export ANACONDA_HOME=/usr/local/anaconda3
