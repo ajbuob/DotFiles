@@ -5,8 +5,8 @@ brew tap homebrew/services
 brew tap mongodb/brew
 
 #brew install bash
-#echo /usr/local/bin/bash >> /etc/shells
-#chsh -s /usr/local/bin/bash
+#echo /opt/homebrew/bin/bash >> /etc/shells
+#chsh -s /opt/homebrew/bin/bash
 #brew install bash-completion@2
 
 brew install dos2unix
