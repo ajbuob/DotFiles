@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
+#homebrew for Mac Silicon
+export PATH=/opt/homebrew/bin:${PATH}
+
 #Source all the modules
 for file in ~/.bash_{exports,aliases,functions}; do
 	[ -r "${file}" ] && [ -f "${file}" ] && source "${file}";
@@ -19,7 +22,7 @@ done
 unset file
 
 #/usr/local/sbin added for homebrew installs
-export PATH=/usr/local/sbin:~/bin:${PATH}
+export PATH=${PATH}:/usr/local/sbin:~/bin
 #export PATH=${ANACONDA_HOME}/bin:${PATH}
 #export PATH=${PYENV_ROOT}/bin:$PATH
 
