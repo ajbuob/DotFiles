@@ -35,7 +35,7 @@ export PATH=${PATH}:/usr/local/sbin:~/bin
 if command -v kubectx &> /dev/null; then
 	if ! [[ "$PS1" =~ ^\$\(kube_ps1\).* ]]; then
 		export KUBE_PS1_SYMBOL_ENABLE=false
-		source "/usr/local/opt/kube-ps1/share/kube-ps1.sh"
+		source "/opt/homebrew/opt/kube-ps1/share/kube-ps1.sh"
 		PS1='$(kube_ps1)'" "$PS1	
 	fi	
 fi
