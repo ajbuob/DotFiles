@@ -115,7 +115,7 @@ brew install kubectx
 brew install kube-ps1
 brew install stern
 
-brew install kafkacat
+brew install kcat
 
 brew install redis
 
