@@ -49,6 +49,8 @@ brew install ant
 brew install maven
 brew install maven-completion
 
+brew isntall gradle
+
 brew install tomcat
 
 brew install mysql
