@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
+#/Library/Java/JavaVirtualMachines/jdk1.8.0_321.jdk/Contents/Home
+export JAVA8_HOME="$(/usr/libexec/java_home -v1.8.0)"
+
 #/Library/Java/JavaVirtualMachines/jdk-11.0.14.jdk/Contents/Home
 export JAVA11_HOME=`/usr/libexec/java_home -v11`
 
@@ -19,10 +22,10 @@ export GRADLE_HOME=${BREW_CELLAR_DIR}/gradle/7.4/libexec
 
 export TOMCAT_HOME=${BREW_CELLAR_DIR}/tomcat/10.0.17/libexec
 
-export HADOOP_HOME=${BREW_CELLAR_DIR}/hadoop/3.3.1
+export HADOOP_HOME=${BREW_CELLAR_DIR}/hadoop/3.3.2
 export HIVE_HOME=${BREW_CELLAR_DIR}/hive/3.1.2_3/libexec
 
-export PG_HOME=${BREW_CELLAR_DIR}/postgresql/14.0
+export PG_HOME=${BREW_CELLAR_DIR}/postgresql/14.2_1
 export PG_DATA=/usr/local/var/postgres
 export PG_CONFIG=/usr/local/var/postgres
 
@@ -51,7 +54,7 @@ export KAFKA_LOGS=${KAFKA_HOME}/logs
 
 export REDIS_HOME=${BREW_CELLAR_DIR}/redis/6.2.6
 
-export TERRAFORM_HOME=${BREW_CELLAR_DIR}/terraform/1.1.6
+export TERRAFORM_HOME=${BREW_CELLAR_DIR}/terraform/1.1.7
 
 export KUBE_CLI_HOME=${BREW_CELLAR_DIR}/kubernetes-cli/1.23.4
 export MINIKUBE_HOME=${BREW_CELLAR_DIR}/minikube/1.25.1
