@@ -34,8 +34,13 @@ export PATH=${PATH}:/usr/local/sbin:~/bin
 # kubectx added to command prompt
 if command -v kubectx &> /dev/null; then
 	if ! [[ "$PS1" =~ ^\$\(kube_ps1\).* ]]; then
-		export KUBE_PS1_SYMBOL_ENABLE=false
-		source "/opt/homebrew/opt/kube-ps1/share/kube-ps1.sh"
+		export KUBE_PS1_SYMBOL_ENABLE=false;
+		if [ -d "/usr/local/Homebrew" ]; then 
+		  source "/usr/local/opt/kube-ps1/share/kube-ps1.sh"
+		fi
+		if [ -d "/opt/homebrew/opt" ]; then 
+		  source "/opt/homebrew/opt/kube-ps1/share/kube-ps1.sh"
+		fi
 		PS1='$(kube_ps1)'" "$PS1	
 	fi	
 fi
