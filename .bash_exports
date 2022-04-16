@@ -29,7 +29,7 @@ export PG_HOME=${BREW_CELLAR_DIR}/postgresql/14.2_1
 export PG_DATA=/usr/local/var/postgres
 export PG_CONFIG=/usr/local/var/postgres
 
-export MONGO_HOME=${BREW_CELLAR_DIR}/mongodb-community/5.0.6
+export MONGO_HOME=${BREW_CELLAR_DIR}/mongodb-community/5.0.7
 export MONGO_DATA=/usr/local/var/mongodb
 export MONGO_LOGS=/usr/local/var/log/mongodb
 export MONGO_CONFIG=/usr/local/etc
@@ -59,6 +59,6 @@ export TERRAFORM_HOME=${BREW_CELLAR_DIR}/terraform/1.1.7
 export KUBE_CLI_HOME=${BREW_CELLAR_DIR}/kubernetes-cli/1.23.5
 export MINIKUBE_HOME=${BREW_CELLAR_DIR}/minikube/1.25.1
 
-export HELM_HOME=${BREW_CELLAR_DIR}/helm/3.8.1
+export HELM_HOME=${BREW_CELLAR_DIR}/helm/3.8.2
 
 export ANACONDA_HOME=/usr/local/anaconda3
