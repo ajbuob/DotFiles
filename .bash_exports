@@ -23,7 +23,7 @@ export ANT_HOME=${BREW_CELLAR_DIR}/ant/1.10.12/libexec
 export MVN_HOME=${BREW_CELLAR_DIR}/maven/3.8.5/libexec
 export GRADLE_HOME=${BREW_CELLAR_DIR}/gradle/7.4.2/libexec
 
-export TOMCAT_HOME=${BREW_CELLAR_DIR}/tomcat/10.0.20/libexec
+export TOMCAT_HOME=${BREW_CELLAR_DIR}/tomcat/10.0.21/libexec
 
 export HADOOP_HOME=${BREW_CELLAR_DIR}/hadoop/3.3.2
 export HIVE_HOME=${BREW_CELLAR_DIR}/hive/3.1.2_3/libexec
@@ -50,7 +50,7 @@ export KIBANA_CONFIG=/usr/local/etc/kibana/
 
 export ZOOKEEPER_HOME=${BREW_CELLAR_DIR}/zookeeper/3.7.0_1/libexec
 
-export KAFKA_HOME=${BREW_CELLAR_DIR}/kafka/3.1.0/libexec
+export KAFKA_HOME=${BREW_CELLAR_DIR}/kafka/3.2.0/libexec
 export KAFKA_DATA=/usr/local/var/lib/kafka-logs
 export KAFKA_CONFIG=${KAFKA_HOME}/config
 export KAFKA_LOGS=${KAFKA_HOME}/logs
@@ -59,7 +59,7 @@ export REDIS_HOME=${BREW_CELLAR_DIR}/redis/6.2.6
 
 export TERRAFORM_HOME=${BREW_CELLAR_DIR}/terraform/1.1.9
 
-export KUBE_CLI_HOME=${BREW_CELLAR_DIR}/kubernetes-cli/1.23.6
+export KUBE_CLI_HOME=${BREW_CELLAR_DIR}/kubernetes-cli/1.24.0
 export MINIKUBE_HOME=${BREW_CELLAR_DIR}/minikube/1.25.1
 
 export HELM_HOME=${BREW_CELLAR_DIR}/helm/3.8.2
