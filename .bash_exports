@@ -60,7 +60,7 @@ export REDIS_HOME=${BREW_CELLAR_DIR}/redis/7.0.8
 export TERRAFORM_HOME=${BREW_CELLAR_DIR}/terraform/1.3.7
 
 export KUBE_CLI_HOME=${BREW_CELLAR_DIR}/kubernetes-cli/1.26.1
-export MINIKUBE_HOME=${BREW_CELLAR_DIR}/minikube/1.28.0
+export MINIKUBE_HOME=${BREW_CELLAR_DIR}/minikube/1.29.0
 
 export HELM_HOME=${BREW_CELLAR_DIR}/helm/3.11.0
 
