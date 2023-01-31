@@ -48,7 +48,7 @@ export KIBANA_HOME=${BREW_CELLAR_DIR}/kibana/7.10.2
 export KIBANA_DATA=${KIBANA_HOME}/data
 export KIBANA_CONFIG=/usr/local/etc/kibana/
 
-export ZOOKEEPER_HOME=${BREW_CELLAR_DIR}/zookeeper/3.7.0_1/libexec
+export ZOOKEEPER_HOME=${BREW_CELLAR_DIR}/zookeeper/3.8.1/libexec
 
 export KAFKA_HOME=${BREW_CELLAR_DIR}/kafka/3.3.2/libexec
 export KAFKA_DATA=/usr/local/var/lib/kafka-logs
