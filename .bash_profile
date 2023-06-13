@@ -3,6 +3,9 @@
 #homebrew for Mac Silicon
 export PATH=/opt/homebrew/bin:${PATH}
 
+#reomve deprecation message
+export BASH_SILENCE_DEPRECATION_WARNING=1
+
 #Source all the modules
 for file in ~/.bash_{exports,aliases,functions}; do
 	[ -r "${file}" ] && [ -f "${file}" ] && source "${file}";
