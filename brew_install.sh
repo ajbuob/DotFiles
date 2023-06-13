@@ -121,4 +121,4 @@ brew install kcat
 
 brew install redis
 
-brew install youtube-dl
+brew install yt-dlp
