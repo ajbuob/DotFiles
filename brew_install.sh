@@ -121,3 +121,4 @@ brew install kcat
 brew install redis
 
 brew install yt-dlp
+brew install ffmpeg
