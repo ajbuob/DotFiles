@@ -49,7 +49,7 @@ brew install ant
 brew install maven
 brew install maven-completion
 
-brew isntall gradle
+brew install gradle
 
 brew install tomcat
 
@@ -76,7 +76,7 @@ brew install jq
 brew install serverless
 
 brew install terraform
-brew isntall packer
+brew install packer
 
 #Cask installs
 brew cask install java
@@ -110,7 +110,6 @@ brew install docker-credential-helper-ecr (included with Docker Desktop)
 brew install kubernetes-cli	
 brew install minikube
 brew install helm
-brew install helm@2
 brew install circleci
 
 brew install kubectx
