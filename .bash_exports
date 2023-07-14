@@ -25,43 +25,43 @@ export GRADLE_HOME=${BREW_CELLAR_DIR}/gradle/8.2.1/libexec
 
 export TOMCAT_HOME=${BREW_CELLAR_DIR}/tomcat/10.1.11/libexec
 
-export HADOOP_HOME=${BREW_CELLAR_DIR}/hadoop/3.3.4
-export HIVE_HOME=${BREW_CELLAR_DIR}/hive/3.1.3/libexec
+#export HADOOP_HOME=${BREW_CELLAR_DIR}/hadoop/3.3.4
+#export HIVE_HOME=${BREW_CELLAR_DIR}/hive/3.1.3/libexec
 
-export PG_HOME=${BREW_CELLAR_DIR}/postgresql/14.8
-export PG_DATA=/usr/local/var/postgres
-export PG_CONFIG=/usr/local/var/postgres
+# export PG_HOME=${BREW_CELLAR_DIR}/postgresql/14.8
+# export PG_DATA=/usr/local/var/postgres
+# export PG_CONFIG=/usr/local/var/postgres
 
-export MONGO_HOME=${BREW_CELLAR_DIR}/mongodb-community/6.0.6
-export MONGO_DATA=/usr/local/var/mongodb
-export MONGO_LOGS=/usr/local/var/log/mongodb
-export MONGO_CONFIG=/usr/local/etc
+# export MONGO_HOME=${BREW_CELLAR_DIR}/mongodb-community/6.0.6
+# export MONGO_DATA=/usr/local/var/mongodb
+# export MONGO_LOGS=/usr/local/var/log/mongodb
+# export MONGO_CONFIG=/usr/local/etc
 
-export SPARK_HOME=${BREW_CELLAR_DIR}/apache-spark/3.4.0/libexec
+# export SPARK_HOME=${BREW_CELLAR_DIR}/apache-spark/3.4.0/libexec
 
-export ES_HOME=${BREW_CELLAR_DIR}/elasticsearch/7.10.2/libexec
-export ES_DATA=/usr/local/var/elasticsearch
-export ES_LOGS=/usr/local/var/log/elasticsearch/
-export ES_CONFIG=/usr/local/etc/elasticsearch/
+# export ES_HOME=${BREW_CELLAR_DIR}/elasticsearch/7.10.2/libexec
+# export ES_DATA=/usr/local/var/elasticsearch
+# export ES_LOGS=/usr/local/var/log/elasticsearch/
+# export ES_CONFIG=/usr/local/etc/elasticsearch/
 
-export KIBANA_HOME=${BREW_CELLAR_DIR}/kibana/7.10.2
-export KIBANA_DATA=${KIBANA_HOME}/data
-export KIBANA_CONFIG=/usr/local/etc/kibana/
+# export KIBANA_HOME=${BREW_CELLAR_DIR}/kibana/7.10.2
+# export KIBANA_DATA=${KIBANA_HOME}/data
+# export KIBANA_CONFIG=/usr/local/etc/kibana/
 
-export ZOOKEEPER_HOME=${BREW_CELLAR_DIR}/zookeeper/3.8.1/libexec
+# export ZOOKEEPER_HOME=${BREW_CELLAR_DIR}/zookeeper/3.8.1/libexec
 
-export KAFKA_HOME=${BREW_CELLAR_DIR}/kafka/3.4.0/libexec
-export KAFKA_DATA=/usr/local/var/lib/kafka-logs
-export KAFKA_CONFIG=${KAFKA_HOME}/config
-export KAFKA_LOGS=${KAFKA_HOME}/logs
+# export KAFKA_HOME=${BREW_CELLAR_DIR}/kafka/3.4.0/libexec
+# export KAFKA_DATA=/usr/local/var/lib/kafka-logs
+# export KAFKA_CONFIG=${KAFKA_HOME}/config
+# export KAFKA_LOGS=${KAFKA_HOME}/logs
 
-export REDIS_HOME=${BREW_CELLAR_DIR}/redis/7.0.11
+#export REDIS_HOME=${BREW_CELLAR_DIR}/redis/7.0.11
 
-export TERRAFORM_HOME=${BREW_CELLAR_DIR}/terraform/1.4.4
+# export TERRAFORM_HOME=${BREW_CELLAR_DIR}/terraform/1.4.4
 
 export KUBE_CLI_HOME=${BREW_CELLAR_DIR}/kubernetes-cli/1.27.3
 export MINIKUBE_HOME=${BREW_CELLAR_DIR}/minikube/1.30.1
 
 export HELM_HOME=${BREW_CELLAR_DIR}/helm/3.12.2
 
-export ANACONDA_HOME=/usr/local/anaconda3
+#export ANACONDA_HOME=/usr/local/anaconda3
