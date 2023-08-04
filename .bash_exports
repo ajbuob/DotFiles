@@ -20,7 +20,7 @@ export HOMEBREW_EDITOR=vim
 export PYENV_ROOT=~/.pyenv
 
 export ANT_HOME=${BREW_CELLAR_DIR}/ant/1.10.13/libexec
-export MVN_HOME=${BREW_CELLAR_DIR}/maven/3.9.3/libexec
+export MVN_HOME=${BREW_CELLAR_DIR}/maven/3.9.4/libexec
 export GRADLE_HOME=${BREW_CELLAR_DIR}/gradle/8.2.1/libexec
 
 export TOMCAT_HOME=${BREW_CELLAR_DIR}/tomcat/10.1.11/libexec
@@ -60,7 +60,7 @@ export TOMCAT_HOME=${BREW_CELLAR_DIR}/tomcat/10.1.11/libexec
 # export TERRAFORM_HOME=${BREW_CELLAR_DIR}/terraform/1.4.4
 
 export KUBE_CLI_HOME=${BREW_CELLAR_DIR}/kubernetes-cli/1.27.4
-export MINIKUBE_HOME=${BREW_CELLAR_DIR}/minikube/1.31.0
+export MINIKUBE_HOME=${BREW_CELLAR_DIR}/minikube/1.31.1
 
 export HELM_HOME=${BREW_CELLAR_DIR}/helm/3.12.2
 
