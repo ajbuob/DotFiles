@@ -59,9 +59,9 @@ export TOMCAT_HOME=${BREW_CELLAR_DIR}/tomcat/10.1.18/libexec
 
 # export TERRAFORM_HOME=${BREW_CELLAR_DIR}/terraform/1.4.4
 
-export KUBE_CLI_HOME=${BREW_CELLAR_DIR}/kubernetes-cli/1.29.0
+export KUBE_CLI_HOME=${BREW_CELLAR_DIR}/kubernetes-cli/1.29.1
 export MINIKUBE_HOME=${BREW_CELLAR_DIR}/minikube/1.32.0
 
-export HELM_HOME=${BREW_CELLAR_DIR}/helm/3.13.3
+export HELM_HOME=${BREW_CELLAR_DIR}/helm/3.14.0
 
 #export ANACONDA_HOME=/usr/local/anaconda3
