@@ -1,16 +1,16 @@
 #!/usr/bin/env bash
 
-#/Library/Java/JavaVirtualMachines/jdk1.8.0_401.jdk/Contents/Home
+#/Library/Java/JavaVirtualMachines/jdk1.8.0_421.jdk/Contents/Home
 export JAVA8_HOME="$(/usr/libexec/java_home -v1.8.0)"
 
-#/Library/Java/JavaVirtualMachines/jdk-11.0.22.jdk/Contents/Home
+#/Library/Java/JavaVirtualMachines/jdk-11.0.23.jdk/Contents/Home
 export JAVA11_HOME=`/usr/libexec/java_home -v11`
 
-#/Library/Java/JavaVirtualMachines/jdk-17.0.10.jdk/Contents/Home
-export JAVA17_HOME=`/usr/libexec/java_home -v17`
+#/Library/Java/JavaVirtualMachines/jdk-21.0.4.jdk/Contents/Home
+export JAVA21_HOME=`/usr/libexec/java_home -v21`
 
 #/Library/Java/JavaVirtualMachines/jdk-21.0.2.jdk/Contents/Home
-export JAVAEX_HOME=`/usr/libexec/java_home -v21`
+export JAVAEX_HOME=`/usr/libexec/java_home -v22`
 
 export JAVA_HOME=${JAVA11_HOME}
 
