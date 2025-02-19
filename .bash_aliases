@@ -40,7 +40,7 @@ alias du='du -h'
 alias reload="source ~/.bash_profile"
 
 alias brew-services="brew services list"
-alias brew-pull="cd $(brew --prefix)/Homebrew && git fetch && git reset --hard origin/master"
+alias brew-pull="cd $(brew --prefix) && git fetch && git reset --hard origin/master"
 alias brew-upgrade="brew upgrade;brew cleanup -s"
 alias brew-cache="rm -rvf $(brew --cache)"
 
