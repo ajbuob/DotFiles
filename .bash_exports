@@ -1,16 +1,16 @@
 #!/usr/bin/env bash
 
-#/Library/Java/JavaVirtualMachines/jdk1.8.0_441.jdk/Contents/Home
+#/Library/Java/JavaVirtualMachines/jdk1.8.0_451.jdk/Contents/Home
 export JAVA8_HOME="$(/usr/libexec/java_home -v1.8.0)"
 
-#/Library/Java/JavaVirtualMachines/jdk-11.0.26.jdk/Contents/Home
+#/Library/Java/JavaVirtualMachines/jdk-11.0.27.jdk/Contents/Home
 export JAVA11_HOME=`/usr/libexec/java_home -v11`
 
-#/Library/Java/JavaVirtualMachines/jdk-21.0.6.jdk/Contents/Home
+#/Library/Java/JavaVirtualMachines/jdk-21.0.7.jdk/Contents/Home
 export JAVA21_HOME=`/usr/libexec/java_home -v21`
 
-#/Library/Java/JavaVirtualMachines/jdk-23.0.2.jdk/Contents/Home
-export JAVAEX_HOME=`/usr/libexec/java_home -v23`
+#/Library/Java/JavaVirtualMachines/jdk-24.0.1.jdk/Contents/Home
+export JAVAEX_HOME=`/usr/libexec/java_home -v24`
 
 export JAVA_HOME=${JAVA11_HOME}
 
@@ -59,7 +59,7 @@ export TOMCAT_HOME=${BREW_CELLAR_DIR}/tomcat/11.0.6/libexec
 
 # export TERRAFORM_HOME=${BREW_CELLAR_DIR}/terraform/1.4.4
 
-export KUBE_CLI_HOME=${BREW_CELLAR_DIR}/kubernetes-cli/1.32.3
+export KUBE_CLI_HOME=${BREW_CELLAR_DIR}/kubernetes-cli/1.32.4
 export MINIKUBE_HOME=${BREW_CELLAR_DIR}/minikube/1.35.0
 
 export HELM_HOME=${BREW_CELLAR_DIR}/helm/3.17.3
