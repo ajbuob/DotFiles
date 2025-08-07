@@ -21,9 +21,9 @@ export PYENV_ROOT=~/.pyenv
 
 export ANT_HOME=${BREW_CELLAR_DIR}/ant/1.10.15_1/libexec
 export MVN_HOME=${BREW_CELLAR_DIR}/maven/3.9.11/libexec
-export GRADLE_HOME=${BREW_CELLAR_DIR}/gradle/8.14.3/libexec
+export GRADLE_HOME=${BREW_CELLAR_DIR}/gradle/9.0.0/libexec
 
-export TOMCAT_HOME=${BREW_CELLAR_DIR}/tomcat/11.0.9/libexec
+export TOMCAT_HOME=${BREW_CELLAR_DIR}/tomcat/11.0.10/libexec
 
 #export HADOOP_HOME=${BREW_CELLAR_DIR}/hadoop/3.3.4
 #export HIVE_HOME=${BREW_CELLAR_DIR}/hive/3.1.3/libexec
