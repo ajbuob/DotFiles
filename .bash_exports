@@ -16,6 +16,7 @@ export JAVA_HOME=${JAVA11_HOME}
 
 export BREW_CELLAR_DIR=$(brew --cellar)
 export HOMEBREW_EDITOR=vim
+export HOMEBREW_NO_ENV_HINTS=1
 
 export PYENV_ROOT=~/.pyenv
 
