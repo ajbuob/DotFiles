@@ -22,7 +22,7 @@ export PYENV_ROOT=~/.pyenv
 
 export ANT_HOME=${BREW_CELLAR_DIR}/ant/1.10.17/libexec
 export MVN_HOME=${BREW_CELLAR_DIR}/maven/3.9.16/libexec
-export GRADLE_HOME=${BREW_CELLAR_DIR}/gradle/9.5.1/libexec
+export GRADLE_HOME=${BREW_CELLAR_DIR}/gradle/9.6.0/libexec
 
 export TOMCAT_HOME=${BREW_CELLAR_DIR}/tomcat/11.0.22/libexec
 
@@ -63,6 +63,6 @@ export TOMCAT_HOME=${BREW_CELLAR_DIR}/tomcat/11.0.22/libexec
 export KUBE_CLI_HOME=${BREW_CELLAR_DIR}/kubernetes-cli/1.36.1
 export MINIKUBE_HOME=${BREW_CELLAR_DIR}/minikube/1.38.2
 
-export HELM_HOME=${BREW_CELLAR_DIR}/helm/4.2.1
+export HELM_HOME=${BREW_CELLAR_DIR}/helm/4.2.2
 
 #export ANACONDA_HOME=/usr/local/anaconda3
