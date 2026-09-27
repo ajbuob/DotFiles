@@ -21,6 +21,8 @@ if [ -f /usr/local/share/bash-completion/bash_completion ]; then
     source /usr/local/share/bash-completion/bash_completion
 fi
 
+[[ -r "/opt/homebrew/etc/profile.d/bash_completion.sh" ]] && . "/opt/homebrew/etc/profile.d/bash_completion.sh"
+
 #Load brew bash completion
 for file in $(brew --prefix)/etc/bash_completion.d/*
 do
