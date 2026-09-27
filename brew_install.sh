@@ -83,7 +83,7 @@ brew cask install java
 brew cask install postman
 brew cask install insomnia
 brew cask install sourcetree
-brew cask install textmate
+brew cask install coteditor
 brew cask install devcenter
 brew cask install google-chrome
 brew cask install the-unarchiver
