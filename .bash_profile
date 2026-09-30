@@ -32,13 +32,6 @@ unset file
 
 #/usr/local/sbin added for homebrew installs
 export PATH=${PATH}:/usr/local/sbin:~/bin
-#export PATH=${ANACONDA_HOME}/bin:${PATH}
-#export PATH=${PYENV_ROOT}/bin:$PATH
-
-# pyenv configuration
-#if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi
-# pyenv-virtualenv configuration
-#if which pyenv-virtualenv-init > /dev/null; then eval "$(pyenv virtualenv-init -)"; fi
 
 # kubectx added to command prompt
 if command -v kubectx &> /dev/null; then
@@ -56,16 +49,12 @@ fi
 
 echo "PATH: ${PATH}"
 
-#create default machine
-#docker-machine create --driver virtualbox default
-
-# Start/Configure Docker
-#DOCKER_RUNNING=$(docker-machine ls --format "{{.Name}}: {{.State}}" --filter name=default)
-#if [[ "${DOCKER_RUNNING}" == *"Stopped"* ]]; then
-#    docker-machine start default
-#    eval "$(docker-machine env default)"
-#    env | grep "DOCKER"
-#elif [[ "${DOCKER_RUNNING}" == *"Running"* ]]; then
-#    eval "$(docker-machine env default)"
-#    env | grep "DOCKER"
-#fi
+# Automatically start Colima if it isn't running
+#
+# --vm-type=vz  
+# (use Apple’s native macOS Virtualization.framework
+# instead of the older, open-source QEMU emulator.)
+if ! colima status >/dev/null 2>&1; then
+    echo "Starting Colima background engine..."
+    colima start --vm-type=vz --cpu 4 --memory 8
+fi

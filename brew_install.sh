@@ -101,11 +101,10 @@ brew cask install virtualbox
 
 brew install --cask oktadeveloper/tap/okta
 
-#Docker and completion scripts
+#Docker/Colima VM
 brew install docker
 brew install docker-compose
-brew install docker-machine (not included with Docker Desktop)
-brew install docker-credential-helper-ecr (included with Docker Desktop)
+brew install colima
 
 brew install kubernetes-cli	
 brew install minikube
