@@ -58,3 +58,7 @@ if ! colima status >/dev/null 2>&1; then
     echo "Starting Colima background engine..."
     colima start --vm-type=vz --cpu 4 --memory 8
 fi
+
+if command -v colima &> /dev/null; then
+    colima status
+fi
