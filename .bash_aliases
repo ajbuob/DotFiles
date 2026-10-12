@@ -6,6 +6,7 @@ alias j21="export JAVA_HOME=${JAVA21_HOME}"
 alias j25="export JAVA_HOME=${JAVA25_HOME}"
 
 alias idea='cd ~/IdeaProjects'
+alias cbh='cd ~/IdeaProjects/cbh'
 
 alias e80="echo 'rdr pass inet proto tcp from any to any port 80 -> 127.0.0.1 port 8181' | sudo pfctl -ef -"
 

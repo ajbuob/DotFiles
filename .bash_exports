@@ -12,7 +12,7 @@ export JAVA21_HOME=`/usr/libexec/java_home -v21`
 #/Library/Java/JavaVirtualMachines/jdk-25.0.4.jdk/Contents/Home
 export JAVA25_HOME=`/usr/libexec/java_home -v25`
 
-export JAVA_HOME=${JAVA11_HOME}
+export JAVA_HOME=${JAVA21_HOME}
 
 export BREW_CELLAR_DIR=$(brew --cellar)
 export HOMEBREW_EDITOR=vim
@@ -67,3 +67,28 @@ export MINIKUBE_HOME=${BREW_CELLAR_DIR}/minikube/1.39.0
 export HELM_HOME=${BREW_CELLAR_DIR}/helm/4.3.0
 
 #export ANACONDA_HOME=/usr/local/anaconda3
+
+#COLIMA
+# if ! colima status >/dev/null 2>&1; then
+#     # Point to Colima's Docker socket (adjust path if using a custom profile)
+#     export DOCKER_HOST="unix://${HOME}/.colima/default/docker.sock"
+#     # Map the Docker socket internal override for Testcontainers
+#     export TESTCONTAINERS_DOCKER_SOCKET_OVERRIDE=/var/run/docker.sock
+#     # Tell Testcontainers how to resolve the Colima host IP address
+#     export TESTCONTAINERS_HOST_OVERRIDE=$(colima ls -j 2>/dev/null | jq -r '.address' || echo "127.0.0.1")
+#     # Optional: Disable Ryuk if your container cleanups hang or time out
+#     export TESTCONTAINERS_RYUK_DISABLED=true
+# fi
+
+#PODMAN
+PODMAN_MACHINE_NAME="podman-machine-default"
+PODMAN_STATUS=$(podman machine inspect "$PODMAN_MACHINE_NAME" --format '{{.State}}' 2>/dev/null)
+
+if [ -z "$PODMAN_STATUS" ]; then
+	# Point to the active Podman machine socket
+    export DOCKER_HOST="unix://$(podman machine inspect --format '{{.ConnectionInfo.PodmanSocket.Path}}')"
+    # Override the container path override if required by your framework
+    export TESTCONTAINERS_DOCKER_SOCKET_OVERRIDE=/var/run/docker.sock
+    # Disable Ryuk resource reaper 
+    export TESTCONTAINERS_RYUK_DISABLED=true	
+fi	

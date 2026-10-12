@@ -49,16 +49,26 @@ fi
 
 echo "PATH: ${PATH}"
 
-# Automatically start Colima if it isn't running
-#
-# --vm-type=vz  
-# (use Apple’s native macOS Virtualization.framework
-# instead of the older, open-source QEMU emulator.)
-if ! colima status >/dev/null 2>&1; then
-    echo "Starting Colima background engine..."
-    colima start --vm-type=vz --cpu 4 --memory 8
-fi
+#COLIMA
+# # --vm-type=vz to use Apple’s native macOS Virtualization.framework instead of the older, open-source QEMU emulator
+# if ! colima status >/dev/null 2>&1; then
+#     echo "Starting Colima background engine..."
+#     colima start --vm-type=vz --cpu 4 --memory 8
+# fi
 
-if command -v colima &> /dev/null; then
-    colima status
+#PODMAN
+PODMAN_MACHINE_NAME="podman-machine-default"
+PODMAN_STATUS=$(podman machine inspect "$PODMAN_MACHINE_NAME" --format '{{.State}}' 2>/dev/null)
+
+if [ -z "$PODMAN_STATUS" ]; then
+    echo "Podman machine '$PODMAN_MACHINE_NAME' not found. Initializing..."
+    podman machine init --cpus 4 --memory 8192 --disk-size 60 --rootful
+    
+    echo "Starting the newly initialized Podman machine..."
+    podman machine start
+elif [ "$PODMAN_STATUS" != "running" ]; then
+    echo "Podman machine is '$PODMAN_STATUS'. Starting..."
+    podman machine start
+else
+    echo "Podman machine is running."
 fi
