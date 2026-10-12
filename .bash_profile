@@ -51,10 +51,10 @@ echo "PATH: ${PATH}"
 
 #COLIMA
 # # --vm-type=vz to use Apple’s native macOS Virtualization.framework instead of the older, open-source QEMU emulator
-# if ! colima status >/dev/null 2>&1; then
-#     echo "Starting Colima background engine..."
-#     colima start --vm-type=vz --cpu 4 --memory 8
-# fi
+if command -v colima >/dev/null 2>&1 && ! colima status >/dev/null 2>&1; then
+    echo "Starting Colima background engine..."
+    colima start --vm-type=vz --cpu 4 --memory 8
+fi
 
 #PODMAN
 PODMAN_MACHINE_NAME="podman-machine-default"

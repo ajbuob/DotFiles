@@ -69,16 +69,16 @@ export HELM_HOME=${BREW_CELLAR_DIR}/helm/4.3.0
 #export ANACONDA_HOME=/usr/local/anaconda3
 
 #COLIMA
-# if ! colima status >/dev/null 2>&1; then
-#     # Point to Colima's Docker socket (adjust path if using a custom profile)
-#     export DOCKER_HOST="unix://${HOME}/.colima/default/docker.sock"
-#     # Map the Docker socket internal override for Testcontainers
-#     export TESTCONTAINERS_DOCKER_SOCKET_OVERRIDE=/var/run/docker.sock
-#     # Tell Testcontainers how to resolve the Colima host IP address
-#     export TESTCONTAINERS_HOST_OVERRIDE=$(colima ls -j 2>/dev/null | jq -r '.address' || echo "127.0.0.1")
-#     # Optional: Disable Ryuk if your container cleanups hang or time out
-#     export TESTCONTAINERS_RYUK_DISABLED=true
-# fi
+if command -v colima >/dev/null 2>&1 && ! colima status >/dev/null 2>&1; then
+    # Point to Colima's Docker socket (adjust path if using a custom profile)
+    export DOCKER_HOST="unix://${HOME}/.colima/default/docker.sock"
+    # Map the Docker socket internal override for Testcontainers
+    export TESTCONTAINERS_DOCKER_SOCKET_OVERRIDE=/var/run/docker.sock
+    # Tell Testcontainers how to resolve the Colima host IP address
+    export TESTCONTAINERS_HOST_OVERRIDE=$(colima ls -j 2>/dev/null | jq -r '.address' || echo "127.0.0.1")
+    # Optional: Disable Ryuk if your container cleanups hang or time out
+    export TESTCONTAINERS_RYUK_DISABLED=true
+fi
 
 #PODMAN
 PODMAN_MACHINE_NAME="podman-machine-default"
