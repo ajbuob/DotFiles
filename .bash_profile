@@ -58,17 +58,19 @@ echo "PATH: ${PATH}"
 
 #PODMAN
 PODMAN_MACHINE_NAME="podman-machine-default"
-PODMAN_STATUS=$(podman machine inspect "$PODMAN_MACHINE_NAME" --format '{{.State}}' 2>/dev/null)
 
-if [ -z "$PODMAN_STATUS" ]; then
-    echo "Podman machine '$PODMAN_MACHINE_NAME' not found. Initializing..."
-    podman machine init --cpus 4 --memory 8192 --disk-size 60 --rootful
-    
-    echo "Starting the newly initialized Podman machine..."
-    podman machine start
-elif [ "$PODMAN_STATUS" != "running" ]; then
-    echo "Podman machine is '$PODMAN_STATUS'. Starting..."
-    podman machine start
-else
-    echo "Podman machine is running."
-fi
+if command -v podman &> /dev/null; then
+	PODMAN_STATUS=$(podman machine inspect "$PODMAN_MACHINE_NAME" --format '{{.State}}' 2>/dev/null)
+
+	if [ -z "$PODMAN_STATUS" ]; then
+        echo "Podman machine '$PODMAN_MACHINE_NAME' not found. Initializing..."
+        podman machine init --cpus 4 --memory 8192 --disk-size 60 --rootful
+        echo "Starting the newly initialized Podman machine..."
+        podman machine start
+    elif [ "$PODMAN_STATUS" != "running" ]; then
+        echo "Podman machine is '$PODMAN_STATUS'. Starting..."
+        podman machine start
+    else
+        echo "Podman machine is running."
+    fi
+fi	

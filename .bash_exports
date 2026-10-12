@@ -82,13 +82,16 @@ export HELM_HOME=${BREW_CELLAR_DIR}/helm/4.3.0
 
 #PODMAN
 PODMAN_MACHINE_NAME="podman-machine-default"
-PODMAN_STATUS=$(podman machine inspect "$PODMAN_MACHINE_NAME" --format '{{.State}}' 2>/dev/null)
 
-if [ -z "$PODMAN_STATUS" ]; then
-	# Point to the active Podman machine socket
-    export DOCKER_HOST="unix://$(podman machine inspect --format '{{.ConnectionInfo.PodmanSocket.Path}}')"
-    # Override the container path override if required by your framework
-    export TESTCONTAINERS_DOCKER_SOCKET_OVERRIDE=/var/run/docker.sock
-    # Disable Ryuk resource reaper 
-    export TESTCONTAINERS_RYUK_DISABLED=true	
-fi	
+if command -v podman &> /dev/null; then
+	PODMAN_STATUS=$(podman machine inspect "$PODMAN_MACHINE_NAME" --format '{{.State}}' 2>/dev/null)
+
+	if [ -z "$PODMAN_STATUS" ]; then
+       # Point to the active Podman machine socket
+       export DOCKER_HOST="unix://$(podman machine inspect --format '{{.ConnectionInfo.PodmanSocket.Path}}')"
+       # Override the container path override if required by your framework
+       export TESTCONTAINERS_DOCKER_SOCKET_OVERRIDE=/var/run/docker.sock
+       # Disable Ryuk resource reaper 
+       export TESTCONTAINERS_RYUK_DISABLED=true
+    fi
+fi
