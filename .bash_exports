@@ -7,12 +7,12 @@
 #export JAVA11_HOME=`/usr/libexec/java_home -v11`
 
 #/Library/Java/JavaVirtualMachines/jdk-21.0.13.jdk/Contents/Home
-export JAVA21_HOME=`/usr/libexec/java_home -v21`
+#export JAVA21_HOME=`/usr/libexec/java_home -v21`
 
 #/Library/Java/JavaVirtualMachines/jdk-25.0.5.jdk/Contents/Home
 export JAVA25_HOME=`/usr/libexec/java_home -v25`
 
-export JAVA_HOME=${JAVA21_HOME}
+export JAVA_HOME=${JAVA25_HOME}
 
 export BREW_CELLAR_DIR=$(brew --cellar)
 export HOMEBREW_EDITOR=vim

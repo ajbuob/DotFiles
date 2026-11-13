@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 
-alias j8="export JAVA_HOME=${JAVA8_HOME}"
-alias j11="export JAVA_HOME=${JAVA11_HOME}"
-alias j21="export JAVA_HOME=${JAVA21_HOME}"
-alias j25="export JAVA_HOME=${JAVA25_HOME}"
+#alias j8="export JAVA_HOME=${JAVA8_HOME}"
+#alias j11="export JAVA_HOME=${JAVA11_HOME}"
+#alias j21="export JAVA_HOME=${JAVA21_HOME}"
+#alias j25="export JAVA_HOME=${JAVA25_HOME}"
 
 alias idea='cd ~/IdeaProjects'
 alias cbh='cd ~/IdeaProjects/cbh'
